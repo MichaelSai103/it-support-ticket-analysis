@@ -16,6 +16,7 @@ import streamlit as st
 
 
 DATA_PATH = Path("data/synthetic_it_tickets.csv")
+CHART_COLORS = ["#0C66E4", "#22A06B", "#8270DB", "#F97316", "#36B37E", "#579DFF", "#FFAB00"]
 
 
 @st.cache_data
@@ -67,11 +68,7 @@ def kpi_card(label: str, value: str, helper: str, accent: str = "blue") -> str:
 
 
 def build_ticket_rows(tickets: pd.DataFrame, max_rows: int = 8) -> str:
-    """Return rendered HTML rows without leading indentation.
-
-    Keeping the generated HTML left-aligned prevents Markdown from treating it
-    as an indented code block.
-    """
+    """Return rendered HTML rows without leading indentation."""
     if tickets.empty:
         return '<div class="empty-state">No high-priority or pending tickets in the current filter.</div>'
 
@@ -92,21 +89,90 @@ def build_ticket_rows(tickets: pd.DataFrame, max_rows: int = 8) -> str:
     return "".join(rows)
 
 
+def build_ticket_table(tickets: pd.DataFrame, max_rows: int = 18) -> str:
+    """Return a light-themed HTML table for portfolio display."""
+    columns = [
+        ("ticket_id", "Ticket"),
+        ("created_at", "Created"),
+        ("status", "Status"),
+        ("priority", "Priority"),
+        ("category", "Category"),
+        ("subcategory", "Issue"),
+        ("channel", "Channel"),
+        ("site", "Site"),
+        ("assigned_group", "Group"),
+        ("resolution_minutes", "Resolution"),
+        ("sla_met", "SLA"),
+    ]
+
+    header_cells = "".join(f"<th>{escape(label)}</th>" for _, label in columns)
+    body_rows: list[str] = []
+
+    for _, row in tickets.head(max_rows).iterrows():
+        cells: list[str] = []
+        for key, _ in columns:
+            value = row.get(key, "")
+            if key == "created_at" and pd.notna(value):
+                rendered = escape(value.strftime("%d %b %Y %H:%M"))
+            elif key == "status":
+                rendered = status_badge(str(value))
+            elif key == "priority":
+                rendered = priority_badge(str(value))
+            elif key == "resolution_minutes":
+                rendered = "—" if pd.isna(value) else f"{int(value):,} min"
+            elif key == "sla_met":
+                rendered = badge("Met", "status-closed") if value is True else badge("Risk", "status-open")
+            else:
+                rendered = escape(str(value))
+            cells.append(f"<td>{rendered}</td>")
+        body_rows.append(f"<tr>{''.join(cells)}</tr>")
+
+    return (
+        '<div class="table-card">'
+        '<div class="table-scroll">'
+        '<table class="ticket-table">'
+        f"<thead><tr>{header_cells}</tr></thead>"
+        f"<tbody>{''.join(body_rows)}</tbody>"
+        "</table>"
+        "</div>"
+        "</div>"
+    )
+
+
 def chart_layout(fig):
     """Apply a clean dashboard look to Plotly charts."""
     fig.update_layout(
         template="plotly_white",
-        paper_bgcolor="rgba(0,0,0,0)",
-        plot_bgcolor="rgba(0,0,0,0)",
-        margin=dict(l=10, r=10, t=55, b=10),
-        font=dict(family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif", size=12),
-        title_font=dict(size=16),
+        paper_bgcolor="#ffffff",
+        plot_bgcolor="#ffffff",
+        margin=dict(l=18, r=18, t=58, b=30),
+        font=dict(
+            family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif",
+            size=12,
+            color="#253858",
+        ),
+        title=dict(font=dict(size=16, color="#172B4D")),
         showlegend=False,
     )
-    fig.update_xaxes(showgrid=False)
-    fig.update_yaxes(gridcolor="#edf0f5")
+    fig.update_xaxes(
+        title_font=dict(color="#44546F", size=12),
+        tickfont=dict(color="#626F86", size=11),
+        showline=True,
+        linecolor="#B6C2CF",
+        showgrid=False,
+    )
+    fig.update_yaxes(
+        title_font=dict(color="#44546F", size=12),
+        tickfont=dict(color="#626F86", size=11),
+        showline=True,
+        linecolor="#B6C2CF",
+        gridcolor="#EBECF0",
+        zerolinecolor="#B6C2CF",
+    )
     return fig
 
+
+PLOTLY_CONFIG = {"displayModeBar": False, "responsive": True}
 
 st.set_page_config(page_title="IT Support Ticket Analysis", page_icon="🎧", layout="wide")
 
@@ -116,16 +182,17 @@ st.markdown(
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
 
 :root {
-    --page-bg: #f5f7fb;
-    --card-bg: #ffffff;
-    --text-main: #172033;
-    --text-muted: #7a8496;
-    --border: #e8ebf2;
-    --blue: #2563eb;
-    --green: #16a34a;
-    --orange: #f97316;
-    --red: #ef4444;
-    --purple: #7c3aed;
+    --page-bg: #F7F8FA;
+    --card-bg: #FFFFFF;
+    --text-main: #172B4D;
+    --text-muted: #626F86;
+    --border: #DFE1E6;
+    --border-soft: #EBECF0;
+    --blue: #0C66E4;
+    --green: #22A06B;
+    --orange: #F97316;
+    --red: #C9372C;
+    --purple: #8270DB;
 }
 
 .stApp {
@@ -135,8 +202,8 @@ st.markdown(
 }
 
 [data-testid="stSidebar"] {
-    background: #111827;
-    border-right: 1px solid #1f2937;
+    background: #0F172A;
+    border-right: 1px solid #1E293B;
 }
 
 [data-testid="stSidebar"] h1,
@@ -145,13 +212,13 @@ st.markdown(
 [data-testid="stSidebar"] label,
 [data-testid="stSidebar"] p,
 [data-testid="stSidebar"] span {
-    color: #f9fafb !important;
+    color: #F8FAFC !important;
 }
 
 .block-container {
     padding-top: 2.1rem;
     padding-bottom: 2.4rem;
-    max-width: 1360px;
+    max-width: 1380px;
 }
 
 h1, h2, h3 {
@@ -160,11 +227,11 @@ h1, h2, h3 {
 }
 
 .hero {
-    background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 55%, #2563eb 100%);
+    background: linear-gradient(135deg, #172B4D 0%, #0C66E4 100%);
     color: white;
     padding: 28px 32px;
     border-radius: 28px;
-    box-shadow: 0 18px 40px rgba(37, 99, 235, 0.22);
+    box-shadow: 0 18px 40px rgba(12, 102, 228, 0.20);
     margin-bottom: 22px;
 }
 
@@ -178,7 +245,7 @@ h1, h2, h3 {
     font-size: 15px;
     line-height: 1.6;
     max-width: 900px;
-    color: #dbeafe;
+    color: #DEEBFF;
 }
 
 .section-title {
@@ -188,13 +255,20 @@ h1, h2, h3 {
     color: var(--text-main);
 }
 
-.panel {
+.panel, .ticket-panel, .table-card {
     background: var(--card-bg);
     border: 1px solid var(--border);
     border-radius: 24px;
-    padding: 22px;
-    box-shadow: 0 10px 28px rgba(15, 23, 42, 0.06);
+    box-shadow: 0 10px 28px rgba(9, 30, 66, 0.06);
     margin-bottom: 20px;
+}
+
+.panel {
+    padding: 22px;
+}
+
+.ticket-panel {
+    padding: 10px 16px;
 }
 
 .kpi-card {
@@ -202,7 +276,7 @@ h1, h2, h3 {
     border: 1px solid var(--border);
     border-radius: 22px;
     padding: 20px 22px;
-    box-shadow: 0 10px 24px rgba(15, 23, 42, 0.05);
+    box-shadow: 0 10px 24px rgba(9, 30, 66, 0.05);
     border-top: 4px solid var(--blue);
     min-height: 135px;
 }
@@ -213,11 +287,11 @@ h1, h2, h3 {
 .kpi-card.purple { border-top-color: var(--purple); }
 
 .kpi-label {
-    font-size: 13px;
+    font-size: 12px;
     color: var(--text-muted);
-    font-weight: 700;
+    font-weight: 800;
     text-transform: uppercase;
-    letter-spacing: 0.04em;
+    letter-spacing: 0.05em;
     margin-bottom: 12px;
 }
 
@@ -235,11 +309,11 @@ h1, h2, h3 {
 }
 
 .update-card {
-    border: 1px solid var(--border);
+    border: 1px solid var(--border-soft);
     border-radius: 18px;
     padding: 14px 15px;
     margin-bottom: 12px;
-    background: #ffffff;
+    background: #FFFFFF;
 }
 
 .update-title {
@@ -255,22 +329,13 @@ h1, h2, h3 {
     line-height: 1.45;
 }
 
-.ticket-panel {
-    background: var(--card-bg);
-    border: 1px solid var(--border);
-    border-radius: 24px;
-    padding: 10px 16px;
-    box-shadow: 0 10px 28px rgba(15, 23, 42, 0.06);
-    margin-bottom: 20px;
-}
-
 .ticket-row {
     display: grid;
     grid-template-columns: minmax(300px, 1.4fr) 170px 240px;
     gap: 16px;
     align-items: center;
     padding: 14px 6px;
-    border-bottom: 1px solid #eef1f6;
+    border-bottom: 1px solid var(--border-soft);
 }
 
 .ticket-row:last-child {
@@ -300,20 +365,20 @@ h1, h2, h3 {
     display: inline-flex;
     align-items: center;
     border-radius: 999px;
-    padding: 6px 10px;
+    padding: 5px 9px;
     font-size: 11px;
     font-weight: 750;
     white-space: nowrap;
 }
 
-.priority-critical { background: #fee2e2; color: #991b1b; }
-.priority-high { background: #ffedd5; color: #9a3412; }
-.priority-medium { background: #e0f2fe; color: #075985; }
-.priority-low { background: #ecfdf5; color: #166534; }
-.status-open { background: #fef2f2; color: #b91c1c; }
-.status-pending { background: #fff7ed; color: #c2410c; }
-.status-resolved { background: #eff6ff; color: #1d4ed8; }
-.status-closed { background: #f0fdf4; color: #15803d; }
+.priority-critical { background: #FFECEB; color: #AE2A19; }
+.priority-high { background: #FFF4E5; color: #974F0C; }
+.priority-medium { background: #E9F2FF; color: #0055CC; }
+.priority-low { background: #DCFFF1; color: #216E4E; }
+.status-open { background: #FFECEB; color: #AE2A19; }
+.status-pending { background: #FFF4E5; color: #974F0C; }
+.status-resolved { background: #E9F2FF; color: #0055CC; }
+.status-closed { background: #DCFFF1; color: #216E4E; }
 
 .empty-state {
     padding: 20px;
@@ -330,17 +395,56 @@ h1, h2, h3 {
 }
 
 div[data-testid="stPlotlyChart"] {
-    background: #ffffff;
+    background: #FFFFFF;
     border: 1px solid var(--border);
     border-radius: 22px;
     padding: 10px 12px;
-    box-shadow: 0 10px 24px rgba(15, 23, 42, 0.04);
+    box-shadow: 0 10px 24px rgba(9, 30, 66, 0.04);
 }
 
-[data-testid="stDataFrame"] {
-    border-radius: 18px;
+.table-card {
+    padding: 0;
     overflow: hidden;
-    border: 1px solid var(--border);
+}
+
+.table-scroll {
+    overflow-x: auto;
+}
+
+.ticket-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #FFFFFF;
+    color: var(--text-main);
+    font-size: 13px;
+}
+
+.ticket-table thead {
+    background: #F1F3F7;
+    border-bottom: 1px solid var(--border);
+}
+
+.ticket-table th {
+    padding: 13px 14px;
+    text-align: left;
+    font-weight: 800;
+    color: #44546F;
+    white-space: nowrap;
+}
+
+.ticket-table td {
+    padding: 13px 14px;
+    border-bottom: 1px solid var(--border-soft);
+    color: var(--text-main);
+    white-space: nowrap;
+}
+
+.ticket-table tbody tr:nth-child(even) {
+    background: #FAFBFC;
+}
+
+.ticket-table tbody tr:hover {
+    background: #E9F2FF;
 }
 </style>
 """,
@@ -490,8 +594,10 @@ with main_col:
             x="category",
             y="ticket_count",
             title="Ticket Volume by Category",
+            color_discrete_sequence=CHART_COLORS,
         )
-        st.plotly_chart(chart_layout(fig), use_container_width=True)
+        fig.update_traces(marker_color="#579DFF", marker_line_color="#0C66E4", marker_line_width=0.6)
+        st.plotly_chart(chart_layout(fig), use_container_width=True, config=PLOTLY_CONFIG)
 
     with chart_right:
         fig = px.bar(
@@ -499,13 +605,23 @@ with main_col:
             x="priority",
             y="ticket_count",
             title="Ticket Volume by Priority",
+            color_discrete_sequence=CHART_COLORS,
         )
-        st.plotly_chart(chart_layout(fig), use_container_width=True)
+        fig.update_traces(marker_color="#22A06B", marker_line_color="#1F845A", marker_line_width=0.6)
+        st.plotly_chart(chart_layout(fig), use_container_width=True, config=PLOTLY_CONFIG)
 
     trend_left, trend_right = st.columns(2)
     with trend_left:
-        fig = px.line(monthly_volume, x="month", y="ticket_count", markers=True, title="Monthly Ticket Trend")
-        st.plotly_chart(chart_layout(fig), use_container_width=True)
+        fig = px.line(
+            monthly_volume,
+            x="month",
+            y="ticket_count",
+            markers=True,
+            title="Monthly Ticket Trend",
+            color_discrete_sequence=["#0C66E4"],
+        )
+        fig.update_traces(line=dict(width=3), marker=dict(size=8, color="#0C66E4"))
+        st.plotly_chart(chart_layout(fig), use_container_width=True, config=PLOTLY_CONFIG)
 
     with trend_right:
         fig = px.bar(
@@ -513,8 +629,10 @@ with main_col:
             x="category",
             y="avg_resolution_hours",
             title="Average Resolution Time by Category",
+            color_discrete_sequence=CHART_COLORS,
         )
-        st.plotly_chart(chart_layout(fig), use_container_width=True)
+        fig.update_traces(marker_color="#8270DB", marker_line_color="#6E5DC6", marker_line_width=0.6)
+        st.plotly_chart(chart_layout(fig), use_container_width=True, config=PLOTLY_CONFIG)
 
 st.markdown('<div class="section-title">Ticket sample</div>', unsafe_allow_html=True)
 display_columns = [
@@ -530,4 +648,4 @@ display_columns = [
     "resolution_minutes",
     "sla_met",
 ]
-st.dataframe(filtered[display_columns].head(50), use_container_width=True, hide_index=True)
+st.markdown(build_ticket_table(filtered[display_columns], max_rows=18), unsafe_allow_html=True)
