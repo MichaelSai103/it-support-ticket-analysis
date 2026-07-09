@@ -1,43 +1,81 @@
-# IT Support Ticket Analysis
+# IT Support Ticket Analysis Dashboard
 
-A simulated IT support ticket analysis project using Python to explore help desk workload, issue categories, SLA performance, resolution time, and support trends.
+A portfolio project that uses synthetic IT support ticket data to analyse service desk workload, issue categories, SLA performance, resolution time, support channels, and operational improvement opportunities.
 
-This project is designed as a portfolio project to connect practical IT support experience with data analysis and reporting skills.
+This project connects practical IT support knowledge with Python-based data analysis and dashboard reporting.
 
-## Project Purpose
+![Dashboard overview](assets/dashboard-overview.png)
 
-In IT support environments, ticket data can help teams understand:
+---
 
-- What types of issues occur most often
-- Which categories take the longest to resolve
-- Whether support requests are meeting SLA targets
-- Which sites or channels generate the most tickets
-- How workload changes over time
-- Where documentation, training, or process improvements may be needed
+## Project Overview
 
-This project uses synthetic help desk ticket data to demonstrate how Python can support practical IT operations reporting.
+In IT support and service desk environments, ticket data is one of the most useful sources for understanding operational workload and service quality.
 
-## Key Questions
+This project simulates a help desk ticket dataset and builds a dashboard to answer questions such as:
 
-This project aims to answer questions such as:
+- What types of IT issues occur most often?
+- Which ticket categories take the longest to resolve?
+- Are tickets being resolved within SLA targets?
+- Which sites or support channels generate the most workload?
+- Which areas may need better documentation, training, or process improvement?
 
-- What are the most common IT support issue categories?
-- How many tickets are resolved within SLA?
-- Which priority levels have the longest average resolution time?
-- Are network, hardware, account, printer, or CCTV issues increasing over time?
-- Which support areas may need more documentation or process improvement?
+The dashboard is built with Python, pandas, Plotly, and Streamlit.
+
+---
+
+## Why This Project Matters
+
+For IT Support, Desktop Support, Field Support, and Junior Network Support roles, technical troubleshooting is only one part of the job.
+
+Support teams also need to:
+
+- Understand recurring issues
+- Prioritise urgent tickets
+- Monitor SLA performance
+- Communicate workload clearly
+- Identify process and documentation gaps
+- Use data to improve support quality
+
+This project demonstrates how ticket data can be turned into useful operational insights.
+
+---
+
+## Dashboard Preview
+
+### Service Desk Overview
+
+![Dashboard ticket overview](assets/dashboard-ticket-table.png)
+
+The dashboard includes:
+
+- Open ticket count
+- Resolved / closed ticket count
+- SLA met rate
+- Average resolution time
+- Tickets requiring attention
+- Operational insights
+- Ticket volume by category
+- Ticket volume by priority
+- Monthly ticket trend
+- Average resolution time by category
+- Ticket sample table
+
+---
 
 ## Dataset
 
 The dataset is fully synthetic and does not contain any real company, customer, employee, or ticket information.
 
-The generated dataset includes fields such as:
+Generated fields include:
 
 - `ticket_id`
-- `created_at` and `resolved_at`
+- `created_at`
+- `resolved_at`
 - `status`
 - `priority`
-- `category` and `subcategory`
+- `category`
+- `subcategory`
 - `channel`
 - `site`
 - `assigned_group`
@@ -47,22 +85,59 @@ The generated dataset includes fields such as:
 - `root_cause`
 - `customer_satisfaction`
 
-Example ticket categories include network, hardware, software, account, printer, CCTV, and security issues.
+Example ticket categories include:
 
-## Project Structure
+- Network
+- Hardware
+- Software
+- Account
+- Printer
+- CCTV
+- Security
 
-```text
-it-support-ticket-analysis/
-├── app.py                         # Streamlit dashboard
-├── data/                          # Generated synthetic dataset appears here
-├── output/                        # Analysis summary tables appear here
-├── src/
-│   ├── generate_tickets.py         # Synthetic ticket data generator
-│   └── analysis.py                 # Summary analysis script
-├── requirements.txt
-├── .gitignore
-└── README.md
-```
+These categories are designed to reflect common IT support and field support scenarios.
+
+---
+
+## Key Features
+
+### Synthetic Ticket Generator
+
+`src/generate_tickets.py` creates realistic but synthetic help desk ticket records.
+
+It simulates:
+
+- Different issue categories
+- Priority levels
+- SLA targets
+- Resolution times
+- Open, pending, resolved, and closed tickets
+- Site and channel distribution
+- Customer satisfaction scores
+
+### Analysis Script
+
+`src/analysis.py` produces summary tables for:
+
+- Ticket volume by category
+- SLA performance by priority
+- Average resolution time by category
+- Site workload
+- Channel workload
+- Monthly ticket trend
+
+### Streamlit Dashboard
+
+`app.py` provides an interactive dashboard with sidebar filters for:
+
+- Category
+- Site
+- Priority
+- Status
+
+The dashboard is designed to look like a modern service desk reporting interface.
+
+---
 
 ## Tech Stack
 
@@ -73,7 +148,30 @@ it-support-ticket-analysis/
 - Streamlit
 - Git
 
-## Getting Started
+---
+
+## Project Structure
+
+```text
+it-support-ticket-analysis/
+├── app.py
+├── assets/
+│   ├── dashboard-overview.png
+│   └── dashboard-ticket-table.png
+├── data/
+│   └── synthetic_it_tickets.csv
+├── output/
+├── src/
+│   ├── generate_tickets.py
+│   └── analysis.py
+├── requirements.txt
+├── .gitignore
+└── README.md
+```
+
+---
+
+## How to Run Locally
 
 ### 1. Clone the repository
 
@@ -82,7 +180,7 @@ git clone https://github.com/MichaelSai103/it-support-ticket-analysis.git
 cd it-support-ticket-analysis
 ```
 
-### 2. Create and activate a virtual environment
+### 2. Create a virtual environment
 
 ```bash
 python -m venv .venv
@@ -107,13 +205,7 @@ pip install -r requirements.txt
 python src/generate_tickets.py
 ```
 
-This creates:
-
-```text
-data/synthetic_it_tickets.csv
-```
-
-You can also change the number of tickets:
+Optional: generate more records.
 
 ```bash
 python src/generate_tickets.py --tickets 1000
@@ -125,50 +217,56 @@ python src/generate_tickets.py --tickets 1000
 python src/analysis.py
 ```
 
-This prints key findings and saves summary tables to:
-
-```text
-output/
-```
-
 ### 6. Launch the dashboard
 
 ```bash
 streamlit run app.py
 ```
 
-## Planned Dashboard Views
+---
 
-The Streamlit dashboard includes:
+## Example Insights
 
-- Total ticket volume
-- Open / pending ticket count
-- SLA met rate
-- Average resolution time
-- Ticket volume by category
-- Ticket volume by priority
-- Monthly ticket trends
-- Average resolution time by category
-- Filterable ticket sample table
+From the synthetic dataset, the dashboard can highlight insights such as:
+
+- Network-related tickets are often the highest-volume category.
+- CCTV and hardware issues may take longer to resolve because they often require onsite checks or vendor involvement.
+- Open and pending tickets should be reviewed before they become SLA risks.
+- Repeated ticket categories may indicate a need for better user guidance, technical documentation, or process improvement.
+- Ticket data can help support teams communicate workload and service quality more clearly.
+
+---
 
 ## Portfolio Relevance
 
-This project demonstrates a combination of:
+This project demonstrates my ability to combine:
 
 - IT support process understanding
 - Troubleshooting category analysis
 - SLA and service performance reporting
 - Python data analysis
-- Dashboard development
+- Dashboard design
 - Clear technical documentation
 
-It is especially relevant to IT Support, Desktop Support, Field IT Support, Junior Network Support, Technical Support, and junior data-focused roles where operational reporting and troubleshooting analysis are useful.
+It is especially relevant to roles such as:
 
-## Project Status
+- IT Support Technician
+- Desktop Support Technician
+- Field IT Support
+- Junior Network Support
+- Technical Support Officer
+- Junior Data Analyst
+- Data Support Analyst
 
-Initial project structure completed. Next steps:
+---
 
-- Add screenshots of the Streamlit dashboard
-- Add more detailed business insights
-- Add optional Power BI version
-- Add a short portfolio case study summary
+## Future Improvements
+
+Planned improvements include:
+
+- Add a Power BI version of the dashboard
+- Add root cause trend analysis
+- Add SLA breach prediction logic
+- Add ticket ageing analysis
+- Add automated weekly reporting
+- Deploy the Streamlit dashboard online
