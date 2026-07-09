@@ -1,0 +1,501 @@
+ticket_id,created_at,resolved_at,status,priority,category,subcategory,channel,site,assigned_group,resolution_minutes,sla_target_minutes,sla_met,root_cause,customer_satisfaction
+TKT-00001,2026-02-27 09:47:00,2026-02-27 11:13:00,Closed,P1 - Critical,Account,Password reset,Self-service Portal,Canning Vale,Service Desk,86.0,240,True,User error,3.0
+TKT-00002,2026-05-24 10:45:00,2026-05-24 18:13:00,Closed,P3 - Medium,Network,Switch port issue,Monitoring Alert,Wangara,Security Support,448.0,1440,True,Network outage,5.0
+TKT-00003,2026-02-10 18:27:00,2026-02-11 06:03:00,Resolved,P4 - Low,Hardware,Monitor issue,Phone,Malaga,Service Desk,696.0,2880,True,User error,4.0
+TKT-00004,2026-03-09 07:46:00,2026-03-09 16:03:00,Closed,P3 - Medium,Hardware,Workstation fault,Monitoring Alert,Perth CBD,Field Support,497.0,1440,True,Hardware failure,4.0
+TKT-00005,2026-05-28 10:45:00,2026-05-29 00:41:00,Resolved,P3 - Medium,Printer,Driver issue,Walk-up,Perth CBD,Desktop Support,836.0,1440,True,Unknown,3.0
+TKT-00006,2026-04-04 09:23:00,2026-04-04 23:43:00,Closed,P3 - Medium,Network,Slow connection,Email,Osborne Park,Desktop Support,860.0,1440,True,Network outage,4.0
+TKT-00007,2026-06-13 18:35:00,2026-06-13 19:42:00,Closed,P2 - High,Account,MFA issue,Email,Wangara,Service Desk,67.0,480,True,Unknown,4.0
+TKT-00008,2026-05-26 18:20:00,2026-05-27 09:09:00,Closed,P3 - Medium,Hardware,Keyboard/mouse,Monitoring Alert,Remote User,Security Support,889.0,1440,True,Configuration issue,4.0
+TKT-00009,2026-03-09 18:37:00,2026-03-10 06:36:00,Closed,P3 - Medium,Hardware,Peripheral fault,Monitoring Alert,Malaga,Desktop Support,719.0,1440,True,Configuration issue,4.0
+TKT-00010,2026-01-29 09:40:00,2026-01-29 10:23:00,Closed,P2 - High,Software,Performance issue,Self-service Portal,Perth CBD,Security Support,43.0,480,True,Software bug,4.0
+TKT-00011,2026-05-22 07:43:00,2026-05-22 08:36:00,Closed,P3 - Medium,Account,MFA issue,Walk-up,Perth CBD,Network Support,53.0,1440,True,Software bug,5.0
+TKT-00012,2026-03-09 15:48:00,2026-03-09 20:32:00,Resolved,P1 - Critical,Network,Slow connection,Self-service Portal,Osborne Park,Desktop Support,284.0,240,False,Configuration issue,3.0
+TKT-00013,2026-05-16 07:38:00,,Pending Vendor,P2 - High,Hardware,Docking station issue,Monitoring Alert,Perth CBD,Service Desk,,480,,Hardware failure,
+TKT-00014,2026-01-15 10:56:00,2026-01-16 01:32:00,Closed,P4 - Low,CCTV,Camera offline,Email,Remote User,Security Support,876.0,2880,True,Unknown,5.0
+TKT-00015,2026-02-02 17:30:00,2026-02-02 22:47:00,Resolved,P3 - Medium,Network,LAN outage,Walk-up,Osborne Park,Field Support,317.0,1440,True,Software bug,5.0
+TKT-00016,2026-06-26 10:45:00,2026-06-26 20:54:00,Resolved,P4 - Low,Security,Firewall alert,Monitoring Alert,Osborne Park,Security Support,609.0,2880,True,User error,4.0
+TKT-00017,2026-05-22 10:37:00,2026-05-22 15:08:00,Closed,P2 - High,Hardware,Workstation fault,Email,Wangara,Service Desk,271.0,480,True,User error,4.0
+TKT-00018,2026-06-21 14:13:00,2026-06-21 21:37:00,Closed,P2 - High,CCTV,IP address conflict,Phone,Canning Vale,Security Support,444.0,480,True,Configuration issue,5.0
+TKT-00019,2026-04-16 14:55:00,2026-04-16 23:09:00,Closed,P3 - Medium,Network,Wi-Fi issue,Email,Canning Vale,Network Support,494.0,1440,True,Unknown,5.0
+TKT-00020,2026-04-25 09:27:00,2026-04-25 14:15:00,Closed,P3 - Medium,CCTV,IP address conflict,Phone,Perth CBD,Security Support,288.0,1440,True,Unknown,4.0
+TKT-00021,2026-05-19 07:05:00,2026-05-20 05:21:00,Closed,P3 - Medium,CCTV,NVR connectivity,Phone,Canning Vale,Security Support,1336.0,1440,True,Software bug,5.0
+TKT-00022,2026-04-08 07:24:00,2026-04-08 10:04:00,Closed,P3 - Medium,Network,VPN issue,Walk-up,Canning Vale,Field Support,160.0,1440,True,Access permission,4.0
+TKT-00023,2026-01-15 16:47:00,2026-01-15 17:15:00,Closed,P2 - High,Account,MFA issue,Email,Perth CBD,Field Support,28.0,480,True,Software bug,5.0
+TKT-00024,2026-05-11 08:54:00,2026-05-11 21:05:00,Closed,P4 - Low,Software,Application error,Phone,Canning Vale,Service Desk,731.0,2880,True,Network outage,4.0
+TKT-00025,2026-04-18 17:37:00,2026-04-19 10:29:00,Closed,P3 - Medium,Hardware,Docking station issue,Walk-up,Wangara,Network Support,1012.0,1440,True,Configuration issue,5.0
+TKT-00026,2026-04-28 12:59:00,2026-04-28 21:31:00,Closed,P2 - High,Hardware,Workstation fault,Monitoring Alert,Osborne Park,Field Support,512.0,480,False,User error,4.0
+TKT-00027,2026-03-31 08:56:00,2026-03-31 14:38:00,Closed,P2 - High,Network,Slow connection,Phone,Canning Vale,Field Support,342.0,480,True,Access permission,4.0
+TKT-00028,2026-05-16 07:42:00,2026-05-16 18:40:00,Resolved,P4 - Low,Hardware,Docking station issue,Email,Wangara,Network Support,658.0,2880,True,User error,5.0
+TKT-00029,2026-03-14 16:13:00,2026-03-15 00:45:00,Closed,P3 - Medium,CCTV,NVR connectivity,Walk-up,Osborne Park,Security Support,512.0,1440,True,Hardware failure,5.0
+TKT-00030,2026-04-19 11:02:00,2026-04-20 23:07:00,Closed,P4 - Low,CCTV,NVR connectivity,Walk-up,Wangara,Security Support,2165.0,2880,True,Network outage,3.0
+TKT-00031,2026-06-26 09:34:00,2026-06-26 12:23:00,Closed,P3 - Medium,Account,MFA issue,Self-service Portal,Osborne Park,Desktop Support,169.0,1440,True,Software bug,3.0
+TKT-00032,2026-01-11 12:13:00,,Open,P3 - Medium,Network,LAN outage,Email,Malaga,Field Support,,1440,,Unknown,
+TKT-00033,2026-03-02 09:51:00,2026-03-02 15:28:00,Closed,P3 - Medium,Hardware,Keyboard/mouse,Email,Wangara,Network Support,337.0,1440,True,Unknown,5.0
+TKT-00034,2026-03-05 11:10:00,2026-03-06 01:39:00,Resolved,P4 - Low,Security,Suspicious email,Monitoring Alert,Perth CBD,Security Support,869.0,2880,True,Configuration issue,5.0
+TKT-00035,2026-02-28 10:01:00,2026-03-01 09:42:00,Closed,P4 - Low,Network,VPN issue,Walk-up,Malaga,Service Desk,1421.0,2880,True,Unknown,5.0
+TKT-00036,2026-05-18 12:01:00,2026-05-19 07:06:00,Closed,P3 - Medium,Hardware,Docking station issue,Phone,Osborne Park,Network Support,1145.0,1440,True,User error,3.0
+TKT-00037,2026-03-22 13:38:00,2026-03-22 17:38:00,Resolved,P3 - Medium,Network,Wi-Fi issue,Monitoring Alert,Osborne Park,Desktop Support,240.0,1440,True,Hardware failure,5.0
+TKT-00038,2026-05-18 17:46:00,2026-05-19 00:15:00,Closed,P3 - Medium,Network,LAN outage,Walk-up,Canning Vale,Service Desk,389.0,1440,True,Access permission,5.0
+TKT-00039,2026-02-01 18:57:00,2026-02-02 03:21:00,Closed,P3 - Medium,CCTV,Video playback issue,Monitoring Alert,Malaga,Security Support,504.0,1440,True,Access permission,4.0
+TKT-00040,2026-04-08 17:47:00,2026-04-09 00:15:00,Closed,P2 - High,Hardware,Peripheral fault,Self-service Portal,Malaga,Security Support,388.0,480,True,Network outage,5.0
+TKT-00041,2026-05-29 16:41:00,2026-05-30 01:32:00,Closed,P3 - Medium,Printer,Network printer offline,Monitoring Alert,Remote User,Desktop Support,531.0,1440,True,Network outage,4.0
+TKT-00042,2026-02-13 17:05:00,2026-02-14 18:55:00,Resolved,P4 - Low,Software,Installation request,Email,Wangara,Network Support,1550.0,2880,True,Configuration issue,4.0
+TKT-00043,2026-05-02 16:54:00,2026-05-02 21:48:00,Closed,P2 - High,Printer,Network printer offline,Monitoring Alert,Remote User,Field Support,294.0,480,True,Configuration issue,5.0
+TKT-00044,2026-02-07 17:44:00,2026-02-07 19:01:00,Closed,P3 - Medium,Account,Password reset,Monitoring Alert,Wangara,Desktop Support,77.0,1440,True,Unknown,3.0
+TKT-00045,2026-03-05 08:29:00,2026-03-05 14:58:00,Closed,P3 - Medium,Security,Unauthorized access attempt,Self-service Portal,Osborne Park,Field Support,389.0,1440,True,Hardware failure,3.0
+TKT-00046,2026-05-10 13:53:00,2026-05-11 15:42:00,Closed,P4 - Low,Security,Unauthorized access attempt,Phone,Remote User,Security Support,1549.0,2880,True,Software bug,5.0
+TKT-00047,2026-05-14 14:40:00,2026-05-15 01:21:00,Closed,P3 - Medium,Hardware,Keyboard/mouse,Email,Remote User,Network Support,641.0,1440,True,Configuration issue,4.0
+TKT-00048,2026-02-05 09:14:00,2026-02-05 17:05:00,Closed,P3 - Medium,Hardware,Monitor issue,Phone,Perth CBD,Security Support,471.0,1440,True,Software bug,4.0
+TKT-00049,2026-04-18 13:57:00,2026-04-18 22:20:00,Closed,P3 - Medium,Hardware,Workstation fault,Self-service Portal,Canning Vale,Security Support,503.0,1440,True,User error,5.0
+TKT-00050,2026-04-18 15:47:00,2026-04-19 00:28:00,Closed,P3 - Medium,Security,Malware alert,Monitoring Alert,Wangara,Network Support,521.0,1440,True,Software bug,5.0
+TKT-00051,2026-04-14 18:10:00,2026-04-14 21:52:00,Closed,P3 - Medium,Software,Software update,Self-service Portal,Osborne Park,Service Desk,222.0,1440,True,Software bug,5.0
+TKT-00052,2026-04-20 09:55:00,2026-04-20 11:22:00,Closed,P3 - Medium,Account,Password reset,Walk-up,Canning Vale,Network Support,87.0,1440,True,Configuration issue,4.0
+TKT-00053,2026-03-13 13:16:00,,Open,P3 - Medium,Software,Application error,Monitoring Alert,Perth CBD,Field Support,,1440,,User error,
+TKT-00054,2026-06-16 07:48:00,2026-06-16 16:18:00,Closed,P3 - Medium,Security,Malware alert,Phone,Perth CBD,Field Support,510.0,1440,True,Configuration issue,3.0
+TKT-00055,2026-02-25 14:44:00,2026-02-25 23:42:00,Closed,P3 - Medium,Network,Slow connection,Phone,Osborne Park,Field Support,538.0,1440,True,Access permission,4.0
+TKT-00056,2026-03-21 08:37:00,2026-03-21 12:57:00,Closed,P3 - Medium,Account,MFA issue,Self-service Portal,Remote User,Security Support,260.0,1440,True,Software bug,3.0
+TKT-00057,2026-06-10 10:06:00,2026-06-10 12:50:00,Closed,P2 - High,Security,Firewall alert,Self-service Portal,Perth CBD,Field Support,164.0,480,True,Unknown,5.0
+TKT-00058,2026-01-18 15:41:00,2026-01-18 22:04:00,Closed,P3 - Medium,Network,VPN issue,Monitoring Alert,Perth CBD,Security Support,383.0,1440,True,Hardware failure,4.0
+TKT-00059,2026-04-22 09:46:00,2026-04-22 13:38:00,Resolved,P4 - Low,Account,MFA issue,Self-service Portal,Osborne Park,Security Support,232.0,2880,True,Software bug,5.0
+TKT-00060,2026-03-04 08:17:00,2026-03-04 17:24:00,Closed,P3 - Medium,Software,Software update,Monitoring Alert,Osborne Park,Field Support,547.0,1440,True,Access permission,5.0
+TKT-00061,2026-02-16 14:13:00,2026-02-16 15:21:00,Resolved,P1 - Critical,Hardware,Docking station issue,Walk-up,Malaga,Field Support,68.0,240,True,Access permission,4.0
+TKT-00062,2026-02-18 08:15:00,2026-02-18 17:06:00,Closed,P3 - Medium,CCTV,IP address conflict,Self-service Portal,Wangara,Security Support,531.0,1440,True,Access permission,5.0
+TKT-00063,2026-03-17 10:25:00,2026-03-17 12:22:00,Closed,P3 - Medium,Account,MFA issue,Self-service Portal,Malaga,Security Support,117.0,1440,True,Network outage,5.0
+TKT-00064,2026-03-26 12:44:00,2026-03-26 22:50:00,Resolved,P3 - Medium,Software,Installation request,Walk-up,Wangara,Service Desk,606.0,1440,True,Access permission,4.0
+TKT-00065,2026-06-26 09:12:00,2026-06-26 16:46:00,Closed,P2 - High,Network,VPN issue,Walk-up,Remote User,Field Support,454.0,480,True,Unknown,4.0
+TKT-00066,2026-02-19 11:14:00,2026-02-19 18:18:00,Closed,P3 - Medium,Software,Installation request,Email,Remote User,Field Support,424.0,1440,True,Configuration issue,4.0
+TKT-00067,2026-06-28 09:40:00,2026-06-28 11:27:00,Closed,P4 - Low,Hardware,Keyboard/mouse,Email,Perth CBD,Field Support,107.0,2880,True,Hardware failure,5.0
+TKT-00068,2026-01-14 11:55:00,2026-01-14 19:15:00,Closed,P3 - Medium,Software,Application error,Monitoring Alert,Canning Vale,Service Desk,440.0,1440,True,Network outage,4.0
+TKT-00069,2026-05-25 11:05:00,2026-05-25 12:49:00,Closed,P2 - High,Account,Password reset,Self-service Portal,Canning Vale,Field Support,104.0,480,True,Network outage,5.0
+TKT-00070,2026-04-26 14:19:00,2026-04-27 06:44:00,Closed,P2 - High,Printer,Toner/maintenance,Self-service Portal,Osborne Park,Service Desk,985.0,480,False,Network outage,4.0
+TKT-00071,2026-06-10 10:16:00,2026-06-10 14:33:00,Resolved,P2 - High,Security,Malware alert,Phone,Wangara,Field Support,257.0,480,True,User error,5.0
+TKT-00072,2026-05-01 11:02:00,2026-05-01 21:28:00,Resolved,P3 - Medium,Network,Slow connection,Monitoring Alert,Perth CBD,Desktop Support,626.0,1440,True,Hardware failure,4.0
+TKT-00073,2026-02-20 13:07:00,2026-02-20 23:58:00,Closed,P3 - Medium,Printer,Driver issue,Walk-up,Wangara,Service Desk,651.0,1440,True,User error,5.0
+TKT-00074,2026-05-26 11:28:00,2026-05-27 01:39:00,Resolved,P3 - Medium,Network,Slow connection,Monitoring Alert,Malaga,Field Support,851.0,1440,True,Network outage,3.0
+TKT-00075,2026-04-21 18:20:00,2026-04-22 08:33:00,Closed,P2 - High,Software,Application error,Phone,Remote User,Field Support,853.0,480,False,Network outage,4.0
+TKT-00076,2026-03-10 16:02:00,2026-03-10 18:27:00,Resolved,P4 - Low,Security,Malware alert,Monitoring Alert,Osborne Park,Security Support,145.0,2880,True,Hardware failure,5.0
+TKT-00077,2026-05-06 08:30:00,2026-05-06 11:56:00,Closed,P3 - Medium,Network,Slow connection,Walk-up,Remote User,Service Desk,206.0,1440,True,Unknown,4.0
+TKT-00078,2026-06-19 13:52:00,2026-06-19 19:03:00,Closed,P3 - Medium,Network,Wi-Fi issue,Monitoring Alert,Perth CBD,Network Support,311.0,1440,True,Hardware failure,5.0
+TKT-00079,2026-05-12 07:42:00,2026-05-12 10:43:00,Closed,P4 - Low,Hardware,Keyboard/mouse,Monitoring Alert,Perth CBD,Desktop Support,181.0,2880,True,Network outage,5.0
+TKT-00080,2026-01-14 10:17:00,2026-01-14 20:49:00,Closed,P3 - Medium,Hardware,Docking station issue,Monitoring Alert,Remote User,Security Support,632.0,1440,True,User error,5.0
+TKT-00081,2026-02-10 11:35:00,2026-02-10 15:16:00,Resolved,P3 - Medium,Network,VPN issue,Email,Wangara,Service Desk,221.0,1440,True,Software bug,3.0
+TKT-00082,2026-03-16 15:45:00,2026-03-17 10:03:00,Closed,P3 - Medium,Security,Unauthorized access attempt,Monitoring Alert,Wangara,Security Support,1098.0,1440,True,Network outage,4.0
+TKT-00083,2026-02-04 08:17:00,2026-02-04 11:27:00,Closed,P2 - High,Network,VPN issue,Walk-up,Osborne Park,Network Support,190.0,480,True,Unknown,5.0
+TKT-00084,2026-05-29 17:31:00,2026-05-29 23:56:00,Resolved,P3 - Medium,Network,VPN issue,Self-service Portal,Canning Vale,Network Support,385.0,1440,True,Hardware failure,5.0
+TKT-00085,2026-03-24 10:44:00,2026-03-25 00:01:00,Closed,P3 - Medium,Software,Performance issue,Phone,Canning Vale,Service Desk,797.0,1440,True,Hardware failure,4.0
+TKT-00086,2026-04-09 17:50:00,2026-04-09 18:32:00,Resolved,P3 - Medium,Account,Access request,Monitoring Alert,Perth CBD,Desktop Support,42.0,1440,True,Network outage,5.0
+TKT-00087,2026-04-23 08:33:00,2026-04-23 09:53:00,Closed,P3 - Medium,Security,Suspicious email,Phone,Canning Vale,Desktop Support,80.0,1440,True,User error,5.0
+TKT-00088,2026-06-27 13:41:00,2026-06-28 01:45:00,Closed,P4 - Low,Software,Installation request,Self-service Portal,Canning Vale,Network Support,724.0,2880,True,Access permission,3.0
+TKT-00089,2026-01-10 16:04:00,,Open,P3 - Medium,Account,Access request,Walk-up,Wangara,Service Desk,,1440,,Software bug,
+TKT-00090,2026-01-26 14:10:00,2026-01-27 01:44:00,Resolved,P3 - Medium,Security,Suspicious email,Email,Malaga,Service Desk,694.0,1440,True,Hardware failure,5.0
+TKT-00091,2026-04-16 16:43:00,2026-04-17 07:19:00,Closed,P3 - Medium,Hardware,Monitor issue,Phone,Perth CBD,Field Support,876.0,1440,True,Unknown,5.0
+TKT-00092,2026-05-30 09:14:00,2026-05-30 21:42:00,Closed,P3 - Medium,Hardware,Docking station issue,Monitoring Alert,Malaga,Service Desk,748.0,1440,True,Unknown,4.0
+TKT-00093,2026-01-19 14:22:00,2026-01-19 18:34:00,Closed,P3 - Medium,Software,Installation request,Monitoring Alert,Remote User,Network Support,252.0,1440,True,Software bug,5.0
+TKT-00094,2026-05-04 08:15:00,2026-05-04 12:42:00,Closed,P2 - High,Printer,Toner/maintenance,Self-service Portal,Malaga,Network Support,267.0,480,True,User error,4.0
+TKT-00095,2026-05-25 17:49:00,2026-05-26 02:06:00,Closed,P3 - Medium,Security,Suspicious email,Self-service Portal,Remote User,Security Support,497.0,1440,True,Unknown,5.0
+TKT-00096,2026-06-05 12:14:00,2026-06-05 19:00:00,Resolved,P3 - Medium,CCTV,Video playback issue,Phone,Remote User,Service Desk,406.0,1440,True,Access permission,5.0
+TKT-00097,2026-05-29 12:46:00,2026-05-29 19:59:00,Closed,P3 - Medium,Account,MFA issue,Walk-up,Remote User,Security Support,433.0,1440,True,Configuration issue,3.0
+TKT-00098,2026-04-04 15:32:00,,Open,P4 - Low,Network,Slow connection,Phone,Malaga,Security Support,,2880,,Unknown,
+TKT-00099,2026-04-30 08:09:00,2026-04-30 14:01:00,Resolved,P4 - Low,Hardware,Monitor issue,Monitoring Alert,Osborne Park,Network Support,352.0,2880,True,User error,5.0
+TKT-00100,2026-04-27 12:43:00,2026-04-27 16:38:00,Closed,P1 - Critical,Printer,Toner/maintenance,Self-service Portal,Canning Vale,Network Support,235.0,240,True,User error,5.0
+TKT-00101,2026-05-24 12:58:00,2026-05-24 17:17:00,Closed,P3 - Medium,Account,Password reset,Monitoring Alert,Remote User,Network Support,259.0,1440,True,Access permission,5.0
+TKT-00102,2026-03-19 14:07:00,,Pending Vendor,P2 - High,Hardware,Workstation fault,Phone,Osborne Park,Desktop Support,,480,,Software bug,
+TKT-00103,2026-05-19 13:37:00,2026-05-19 19:46:00,Resolved,P3 - Medium,Software,Software update,Monitoring Alert,Remote User,Service Desk,369.0,1440,True,Unknown,5.0
+TKT-00104,2026-01-09 18:23:00,,Pending Vendor,P3 - Medium,Software,Software update,Monitoring Alert,Canning Vale,Desktop Support,,1440,,Unknown,
+TKT-00105,2026-06-15 12:03:00,2026-06-16 01:13:00,Closed,P4 - Low,Hardware,Monitor issue,Email,Canning Vale,Service Desk,790.0,2880,True,Access permission,4.0
+TKT-00106,2026-01-13 12:15:00,,Pending User,P3 - Medium,Network,LAN outage,Self-service Portal,Wangara,Service Desk,,1440,,Unknown,
+TKT-00107,2026-03-01 12:49:00,2026-03-01 16:36:00,Closed,P2 - High,Printer,Print queue issue,Walk-up,Wangara,Desktop Support,227.0,480,True,Network outage,3.0
+TKT-00108,2026-01-07 09:00:00,2026-01-08 04:30:00,Closed,P2 - High,Hardware,Peripheral fault,Walk-up,Perth CBD,Desktop Support,1170.0,480,False,Hardware failure,3.0
+TKT-00109,2026-01-17 14:28:00,2026-01-18 03:31:00,Closed,P3 - Medium,Network,Switch port issue,Self-service Portal,Perth CBD,Security Support,783.0,1440,True,Network outage,5.0
+TKT-00110,2026-06-18 15:19:00,2026-06-18 19:15:00,Resolved,P3 - Medium,Network,Wi-Fi issue,Email,Canning Vale,Security Support,236.0,1440,True,Software bug,4.0
+TKT-00111,2026-01-19 08:20:00,,Open,P3 - Medium,Account,Access request,Email,Wangara,Network Support,,1440,,Network outage,
+TKT-00112,2026-06-02 15:18:00,2026-06-02 18:27:00,Closed,P3 - Medium,Account,Account lockout,Email,Remote User,Service Desk,189.0,1440,True,Unknown,4.0
+TKT-00113,2026-02-25 13:28:00,2026-02-25 16:04:00,Closed,P4 - Low,Account,Account lockout,Walk-up,Canning Vale,Security Support,156.0,2880,True,Software bug,5.0
+TKT-00114,2026-03-07 12:09:00,2026-03-07 15:50:00,Closed,P3 - Medium,Account,Account lockout,Email,Perth CBD,Service Desk,221.0,1440,True,User error,5.0
+TKT-00115,2026-02-03 15:03:00,2026-02-04 01:38:00,Closed,P3 - Medium,Software,Installation request,Email,Canning Vale,Network Support,635.0,1440,True,Unknown,5.0
+TKT-00116,2026-01-14 11:38:00,2026-01-14 13:43:00,Resolved,P3 - Medium,Account,Password reset,Self-service Portal,Osborne Park,Desktop Support,125.0,1440,True,Configuration issue,4.0
+TKT-00117,2026-05-23 12:07:00,2026-05-23 12:54:00,Closed,P2 - High,Account,Access request,Monitoring Alert,Osborne Park,Field Support,47.0,480,True,Network outage,5.0
+TKT-00118,2026-06-18 18:17:00,2026-06-18 18:47:00,Closed,P3 - Medium,Account,MFA issue,Walk-up,Malaga,Network Support,30.0,1440,True,User error,3.0
+TKT-00119,2026-01-18 09:47:00,2026-01-18 17:07:00,Closed,P2 - High,Network,Wi-Fi issue,Email,Remote User,Field Support,440.0,480,True,Configuration issue,5.0
+TKT-00120,2026-03-21 18:20:00,2026-03-21 21:27:00,Closed,P3 - Medium,Hardware,Peripheral fault,Self-service Portal,Perth CBD,Service Desk,187.0,1440,True,Configuration issue,5.0
+TKT-00121,2026-03-11 14:42:00,2026-03-11 18:31:00,Resolved,P3 - Medium,Network,Switch port issue,Monitoring Alert,Canning Vale,Network Support,229.0,1440,True,Configuration issue,4.0
+TKT-00122,2026-03-14 17:43:00,2026-03-14 21:55:00,Closed,P2 - High,Printer,Toner/maintenance,Email,Wangara,Security Support,252.0,480,True,Network outage,5.0
+TKT-00123,2026-02-05 11:18:00,,Pending Vendor,P2 - High,Network,Slow connection,Email,Perth CBD,Security Support,,480,,Access permission,
+TKT-00124,2026-02-28 15:35:00,2026-02-28 17:33:00,Closed,P2 - High,Software,Installation request,Email,Canning Vale,Service Desk,118.0,480,True,Software bug,5.0
+TKT-00125,2026-05-28 13:36:00,2026-05-29 14:02:00,Resolved,P4 - Low,Network,VPN issue,Walk-up,Perth CBD,Security Support,1466.0,2880,True,User error,4.0
+TKT-00126,2026-04-28 18:58:00,,Pending Vendor,P2 - High,Security,Firewall alert,Email,Canning Vale,Service Desk,,480,,Configuration issue,
+TKT-00127,2026-03-21 18:21:00,2026-03-22 05:15:00,Closed,P3 - Medium,Software,Software update,Email,Osborne Park,Service Desk,654.0,1440,True,Network outage,4.0
+TKT-00128,2026-06-15 09:15:00,2026-06-16 00:30:00,Closed,P4 - Low,Software,Installation request,Phone,Wangara,Field Support,915.0,2880,True,Configuration issue,3.0
+TKT-00129,2026-06-10 14:29:00,2026-06-10 21:45:00,Closed,P3 - Medium,Printer,Network printer offline,Self-service Portal,Remote User,Field Support,436.0,1440,True,Hardware failure,5.0
+TKT-00130,2026-01-18 14:28:00,2026-01-19 14:39:00,Closed,P3 - Medium,CCTV,Camera offline,Walk-up,Osborne Park,Service Desk,1451.0,1440,False,Hardware failure,4.0
+TKT-00131,2026-03-15 08:41:00,2026-03-15 14:03:00,Closed,P1 - Critical,Software,Performance issue,Monitoring Alert,Osborne Park,Field Support,322.0,240,False,Unknown,4.0
+TKT-00132,2026-05-27 17:12:00,,Open,P1 - Critical,Account,MFA issue,Self-service Portal,Canning Vale,Field Support,,240,,Configuration issue,
+TKT-00133,2026-03-29 18:05:00,2026-03-29 23:36:00,Resolved,P3 - Medium,Security,Malware alert,Email,Wangara,Security Support,331.0,1440,True,Software bug,5.0
+TKT-00134,2026-03-14 13:26:00,2026-03-15 20:01:00,Closed,P3 - Medium,Software,Application error,Walk-up,Perth CBD,Network Support,1835.0,1440,False,User error,3.0
+TKT-00135,2026-06-18 16:55:00,2026-06-18 17:57:00,Closed,P3 - Medium,Software,Application error,Self-service Portal,Remote User,Desktop Support,62.0,1440,True,Hardware failure,4.0
+TKT-00136,2026-02-03 16:45:00,2026-02-03 23:31:00,Closed,P3 - Medium,Hardware,Docking station issue,Self-service Portal,Canning Vale,Network Support,406.0,1440,True,Unknown,5.0
+TKT-00137,2026-06-25 15:05:00,,Pending Vendor,P3 - Medium,Network,VPN issue,Self-service Portal,Malaga,Service Desk,,1440,,Hardware failure,
+TKT-00138,2026-05-05 10:14:00,2026-05-05 17:49:00,Closed,P4 - Low,Hardware,Monitor issue,Email,Malaga,Service Desk,455.0,2880,True,Network outage,5.0
+TKT-00139,2026-01-10 17:21:00,,Open,P4 - Low,Printer,Driver issue,Self-service Portal,Canning Vale,Desktop Support,,2880,,Configuration issue,
+TKT-00140,2026-02-12 18:28:00,2026-02-13 03:05:00,Closed,P3 - Medium,Network,Slow connection,Phone,Canning Vale,Field Support,517.0,1440,True,Hardware failure,3.0
+TKT-00141,2026-03-03 11:51:00,2026-03-03 15:52:00,Closed,P4 - Low,Printer,Driver issue,Walk-up,Remote User,Field Support,241.0,2880,True,Software bug,5.0
+TKT-00142,2026-05-16 13:10:00,2026-05-16 13:58:00,Closed,P3 - Medium,Software,Software update,Walk-up,Perth CBD,Security Support,48.0,1440,True,Unknown,5.0
+TKT-00143,2026-05-13 08:18:00,2026-05-14 00:25:00,Resolved,P4 - Low,Hardware,Monitor issue,Walk-up,Canning Vale,Field Support,967.0,2880,True,Configuration issue,3.0
+TKT-00144,2026-04-26 12:59:00,,Open,P2 - High,Printer,Print queue issue,Monitoring Alert,Perth CBD,Security Support,,480,,Network outage,
+TKT-00145,2026-02-27 07:20:00,2026-02-27 16:28:00,Closed,P3 - Medium,Hardware,Docking station issue,Phone,Wangara,Service Desk,548.0,1440,True,Hardware failure,5.0
+TKT-00146,2026-06-30 14:28:00,2026-07-01 08:31:00,Resolved,P3 - Medium,CCTV,Camera offline,Email,Malaga,Desktop Support,1083.0,1440,True,Unknown,5.0
+TKT-00147,2026-04-19 08:49:00,2026-04-20 06:11:00,Closed,P4 - Low,Network,Slow connection,Email,Perth CBD,Desktop Support,1282.0,2880,True,Software bug,4.0
+TKT-00148,2026-05-08 16:34:00,2026-05-08 18:04:00,Closed,P3 - Medium,Account,Access request,Phone,Malaga,Security Support,90.0,1440,True,User error,3.0
+TKT-00149,2026-06-20 17:05:00,2026-06-20 18:21:00,Closed,P3 - Medium,Account,MFA issue,Email,Osborne Park,Field Support,76.0,1440,True,Network outage,5.0
+TKT-00150,2026-05-01 07:40:00,2026-05-01 09:12:00,Closed,P3 - Medium,Printer,Toner/maintenance,Walk-up,Remote User,Service Desk,92.0,1440,True,Hardware failure,4.0
+TKT-00151,2026-06-10 08:49:00,2026-06-10 18:16:00,Resolved,P3 - Medium,Printer,Toner/maintenance,Phone,Perth CBD,Network Support,567.0,1440,True,Network outage,5.0
+TKT-00152,2026-06-25 14:44:00,2026-06-27 03:49:00,Resolved,P3 - Medium,Hardware,Monitor issue,Email,Remote User,Security Support,2225.0,1440,False,User error,3.0
+TKT-00153,2026-01-11 12:59:00,2026-01-11 22:07:00,Closed,P1 - Critical,Hardware,Peripheral fault,Monitoring Alert,Malaga,Service Desk,548.0,240,False,Unknown,3.0
+TKT-00154,2026-01-13 17:21:00,2026-01-13 22:32:00,Resolved,P3 - Medium,Account,MFA issue,Monitoring Alert,Canning Vale,Security Support,311.0,1440,True,Software bug,4.0
+TKT-00155,2026-04-05 15:17:00,2026-04-05 19:22:00,Resolved,P2 - High,Hardware,Keyboard/mouse,Email,Canning Vale,Field Support,245.0,480,True,Unknown,5.0
+TKT-00156,2026-03-25 17:18:00,2026-03-26 04:50:00,Closed,P3 - Medium,Network,Switch port issue,Monitoring Alert,Wangara,Security Support,692.0,1440,True,Hardware failure,4.0
+TKT-00157,2026-06-07 13:17:00,,Open,P3 - Medium,Software,Application error,Email,Remote User,Security Support,,1440,,Hardware failure,
+TKT-00158,2026-01-08 09:54:00,2026-01-08 12:53:00,Closed,P3 - Medium,Software,Performance issue,Email,Wangara,Service Desk,179.0,1440,True,Configuration issue,5.0
+TKT-00159,2026-05-26 07:38:00,2026-05-26 21:59:00,Closed,P3 - Medium,Printer,Network printer offline,Walk-up,Malaga,Security Support,861.0,1440,True,Unknown,4.0
+TKT-00160,2026-03-22 17:17:00,2026-03-22 18:51:00,Closed,P2 - High,Network,Wi-Fi issue,Email,Remote User,Desktop Support,94.0,480,True,Software bug,4.0
+TKT-00161,2026-03-08 18:28:00,2026-03-09 21:35:00,Closed,P4 - Low,Software,Installation request,Monitoring Alert,Wangara,Service Desk,1627.0,2880,True,Configuration issue,4.0
+TKT-00162,2026-04-24 08:51:00,,Open,P3 - Medium,CCTV,Video playback issue,Walk-up,Remote User,Service Desk,,1440,,Network outage,
+TKT-00163,2026-06-29 17:11:00,2026-06-29 21:33:00,Resolved,P4 - Low,Software,Software update,Email,Wangara,Desktop Support,262.0,2880,True,Configuration issue,5.0
+TKT-00164,2026-04-05 14:51:00,2026-04-05 18:00:00,Closed,P1 - Critical,Printer,Driver issue,Self-service Portal,Perth CBD,Service Desk,189.0,240,True,Hardware failure,5.0
+TKT-00165,2026-04-16 13:52:00,2026-04-17 00:25:00,Closed,P3 - Medium,Hardware,Monitor issue,Walk-up,Remote User,Service Desk,633.0,1440,True,Software bug,5.0
+TKT-00166,2026-05-22 17:37:00,2026-05-22 23:05:00,Closed,P3 - Medium,Software,Software update,Monitoring Alert,Osborne Park,Service Desk,328.0,1440,True,Unknown,4.0
+TKT-00167,2026-03-24 18:14:00,2026-03-25 11:44:00,Closed,P2 - High,Network,Slow connection,Email,Malaga,Desktop Support,1050.0,480,False,Access permission,2.0
+TKT-00168,2026-06-07 15:05:00,2026-06-07 17:10:00,Closed,P3 - Medium,Security,Malware alert,Self-service Portal,Osborne Park,Desktop Support,125.0,1440,True,Configuration issue,5.0
+TKT-00169,2026-05-25 07:52:00,2026-05-25 09:50:00,Closed,P3 - Medium,Account,Password reset,Email,Remote User,Field Support,118.0,1440,True,Hardware failure,5.0
+TKT-00170,2026-06-13 07:31:00,2026-06-13 10:54:00,Closed,P3 - Medium,Account,MFA issue,Walk-up,Canning Vale,Desktop Support,203.0,1440,True,Unknown,5.0
+TKT-00171,2026-06-26 07:10:00,2026-06-26 13:20:00,Closed,P3 - Medium,Printer,Network printer offline,Monitoring Alert,Wangara,Network Support,370.0,1440,True,Network outage,4.0
+TKT-00172,2026-03-30 13:08:00,2026-03-30 20:01:00,Closed,P4 - Low,Network,Switch port issue,Self-service Portal,Perth CBD,Network Support,413.0,2880,True,Configuration issue,5.0
+TKT-00173,2026-01-25 07:18:00,2026-01-25 11:52:00,Closed,P3 - Medium,Software,Performance issue,Phone,Wangara,Network Support,274.0,1440,True,Network outage,5.0
+TKT-00174,2026-05-12 14:31:00,2026-05-12 17:32:00,Closed,P2 - High,Account,Account lockout,Email,Perth CBD,Security Support,181.0,480,True,Network outage,5.0
+TKT-00175,2026-01-13 07:18:00,2026-01-13 21:20:00,Closed,P3 - Medium,Software,Performance issue,Walk-up,Osborne Park,Service Desk,842.0,1440,True,Unknown,4.0
+TKT-00176,2026-04-04 13:23:00,2026-04-04 21:14:00,Closed,P2 - High,Network,Wi-Fi issue,Self-service Portal,Osborne Park,Desktop Support,471.0,480,True,Hardware failure,3.0
+TKT-00177,2026-05-21 11:52:00,2026-05-21 14:35:00,Closed,P2 - High,Software,Application error,Phone,Perth CBD,Security Support,163.0,480,True,Hardware failure,5.0
+TKT-00178,2026-02-06 10:38:00,,Pending Vendor,P3 - Medium,Printer,Network printer offline,Self-service Portal,Perth CBD,Service Desk,,1440,,User error,
+TKT-00179,2026-04-27 09:38:00,2026-04-27 17:49:00,Closed,P3 - Medium,Network,LAN outage,Walk-up,Osborne Park,Network Support,491.0,1440,True,Configuration issue,5.0
+TKT-00180,2026-06-01 12:32:00,2026-06-01 23:28:00,Resolved,P3 - Medium,Hardware,Peripheral fault,Monitoring Alert,Remote User,Field Support,656.0,1440,True,Hardware failure,5.0
+TKT-00181,2026-01-29 13:37:00,2026-01-29 18:38:00,Closed,P1 - Critical,Software,Application error,Self-service Portal,Canning Vale,Network Support,301.0,240,False,Access permission,2.0
+TKT-00182,2026-01-14 16:30:00,2026-01-14 20:45:00,Closed,P3 - Medium,Printer,Network printer offline,Phone,Remote User,Desktop Support,255.0,1440,True,User error,4.0
+TKT-00183,2026-04-23 12:26:00,2026-04-24 01:49:00,Closed,P3 - Medium,Software,Software update,Monitoring Alert,Osborne Park,Field Support,803.0,1440,True,Software bug,4.0
+TKT-00184,2026-02-05 15:13:00,2026-02-06 13:21:00,Closed,P3 - Medium,CCTV,IP address conflict,Self-service Portal,Canning Vale,Network Support,1328.0,1440,True,Configuration issue,5.0
+TKT-00185,2026-06-23 18:43:00,2026-06-24 12:38:00,Closed,P3 - Medium,Software,Installation request,Self-service Portal,Canning Vale,Desktop Support,1075.0,1440,True,Configuration issue,5.0
+TKT-00186,2026-03-18 11:45:00,,Pending Vendor,P3 - Medium,Hardware,Monitor issue,Monitoring Alert,Malaga,Security Support,,1440,,Hardware failure,
+TKT-00187,2026-03-15 08:36:00,2026-03-15 21:57:00,Resolved,P4 - Low,Software,Performance issue,Monitoring Alert,Malaga,Desktop Support,801.0,2880,True,Hardware failure,5.0
+TKT-00188,2026-04-24 17:16:00,2026-04-25 03:47:00,Closed,P4 - Low,Network,LAN outage,Phone,Osborne Park,Network Support,631.0,2880,True,Network outage,5.0
+TKT-00189,2026-05-31 10:15:00,2026-05-31 11:04:00,Closed,P2 - High,Account,Access request,Phone,Perth CBD,Service Desk,49.0,480,True,Software bug,3.0
+TKT-00190,2026-02-05 07:35:00,2026-02-06 20:07:00,Resolved,P3 - Medium,Hardware,Keyboard/mouse,Monitoring Alert,Canning Vale,Desktop Support,2192.0,1440,False,Unknown,4.0
+TKT-00191,2026-01-23 17:36:00,2026-01-24 08:12:00,Closed,P3 - Medium,Security,Suspicious email,Phone,Canning Vale,Desktop Support,876.0,1440,True,User error,4.0
+TKT-00192,2026-03-16 07:00:00,2026-03-16 18:38:00,Closed,P3 - Medium,Security,Suspicious email,Walk-up,Malaga,Security Support,698.0,1440,True,Access permission,4.0
+TKT-00193,2026-05-10 14:17:00,,Pending Vendor,P3 - Medium,Software,Software update,Email,Malaga,Desktop Support,,1440,,Access permission,
+TKT-00194,2026-03-28 11:36:00,2026-03-28 15:00:00,Closed,P3 - Medium,Software,Software update,Phone,Osborne Park,Security Support,204.0,1440,True,Unknown,5.0
+TKT-00195,2026-01-25 09:08:00,2026-01-25 23:50:00,Closed,P3 - Medium,Software,Software update,Email,Malaga,Security Support,882.0,1440,True,Configuration issue,4.0
+TKT-00196,2026-05-30 18:36:00,2026-05-31 01:16:00,Closed,P3 - Medium,Software,Installation request,Phone,Perth CBD,Service Desk,400.0,1440,True,Software bug,3.0
+TKT-00197,2026-06-30 11:44:00,2026-07-01 01:17:00,Closed,P3 - Medium,Hardware,Docking station issue,Walk-up,Osborne Park,Desktop Support,813.0,1440,True,Configuration issue,3.0
+TKT-00198,2026-06-05 12:26:00,2026-06-05 16:35:00,Closed,P3 - Medium,Security,Unauthorized access attempt,Self-service Portal,Remote User,Desktop Support,249.0,1440,True,Unknown,5.0
+TKT-00199,2026-01-21 15:28:00,,Open,P3 - Medium,Hardware,Peripheral fault,Walk-up,Perth CBD,Field Support,,1440,,User error,
+TKT-00200,2026-05-27 15:09:00,2026-05-27 20:37:00,Closed,P3 - Medium,Network,Switch port issue,Monitoring Alert,Perth CBD,Desktop Support,328.0,1440,True,Access permission,4.0
+TKT-00201,2026-01-15 14:08:00,2026-01-15 17:56:00,Closed,P2 - High,Software,Performance issue,Self-service Portal,Perth CBD,Field Support,228.0,480,True,Software bug,5.0
+TKT-00202,2026-03-07 07:47:00,2026-03-07 10:25:00,Closed,P3 - Medium,Account,Password reset,Email,Canning Vale,Network Support,158.0,1440,True,Access permission,4.0
+TKT-00203,2026-01-18 14:02:00,,Pending Vendor,P4 - Low,Network,Slow connection,Monitoring Alert,Wangara,Desktop Support,,2880,,Unknown,
+TKT-00204,2026-04-06 13:28:00,,Pending User,P3 - Medium,Account,Account lockout,Monitoring Alert,Perth CBD,Field Support,,1440,,Configuration issue,
+TKT-00205,2026-05-18 13:33:00,2026-05-18 14:45:00,Closed,P3 - Medium,Account,Access request,Email,Perth CBD,Network Support,72.0,1440,True,Software bug,3.0
+TKT-00206,2026-02-28 10:29:00,2026-02-28 12:21:00,Closed,P3 - Medium,Account,MFA issue,Phone,Remote User,Service Desk,112.0,1440,True,User error,4.0
+TKT-00207,2026-01-05 10:13:00,2026-01-05 19:19:00,Resolved,P3 - Medium,Printer,Print queue issue,Monitoring Alert,Osborne Park,Service Desk,546.0,1440,True,Configuration issue,3.0
+TKT-00208,2026-02-25 07:08:00,2026-02-25 09:05:00,Closed,P3 - Medium,Account,MFA issue,Phone,Remote User,Field Support,117.0,1440,True,Hardware failure,5.0
+TKT-00209,2026-03-02 11:56:00,2026-03-02 19:19:00,Resolved,P3 - Medium,Software,Software update,Monitoring Alert,Malaga,Network Support,443.0,1440,True,User error,3.0
+TKT-00210,2026-02-14 17:43:00,2026-02-14 23:39:00,Resolved,P3 - Medium,Software,Performance issue,Email,Malaga,Security Support,356.0,1440,True,Unknown,4.0
+TKT-00211,2026-03-18 13:11:00,2026-03-18 22:43:00,Closed,P3 - Medium,Software,Performance issue,Phone,Wangara,Network Support,572.0,1440,True,Unknown,5.0
+TKT-00212,2026-05-24 13:26:00,,Open,P4 - Low,Account,Access request,Monitoring Alert,Wangara,Network Support,,2880,,Configuration issue,
+TKT-00213,2026-04-05 08:34:00,2026-04-05 15:27:00,Closed,P2 - High,Hardware,Monitor issue,Email,Malaga,Security Support,413.0,480,True,Access permission,5.0
+TKT-00214,2026-05-31 18:42:00,2026-05-31 20:02:00,Closed,P1 - Critical,Account,Account lockout,Phone,Malaga,Network Support,80.0,240,True,User error,5.0
+TKT-00215,2026-05-03 10:44:00,2026-05-03 18:07:00,Resolved,P2 - High,Network,LAN outage,Monitoring Alert,Wangara,Field Support,443.0,480,True,Hardware failure,5.0
+TKT-00216,2026-04-02 11:16:00,2026-04-02 16:18:00,Closed,P3 - Medium,Printer,Network printer offline,Monitoring Alert,Perth CBD,Security Support,302.0,1440,True,Unknown,4.0
+TKT-00217,2026-04-16 07:36:00,2026-04-16 14:44:00,Closed,P4 - Low,Printer,Driver issue,Email,Malaga,Field Support,428.0,2880,True,Network outage,5.0
+TKT-00218,2026-03-26 10:24:00,2026-03-26 21:10:00,Closed,P3 - Medium,Software,Software update,Monitoring Alert,Osborne Park,Network Support,646.0,1440,True,Hardware failure,5.0
+TKT-00219,2026-05-06 14:10:00,2026-05-07 09:00:00,Resolved,P3 - Medium,Printer,Toner/maintenance,Phone,Wangara,Field Support,1130.0,1440,True,Software bug,5.0
+TKT-00220,2026-01-16 15:02:00,,Pending User,P4 - Low,Network,Wi-Fi issue,Email,Perth CBD,Security Support,,2880,,Configuration issue,
+TKT-00221,2026-01-03 10:32:00,2026-01-04 05:42:00,Resolved,P3 - Medium,Printer,Print queue issue,Self-service Portal,Remote User,Field Support,1150.0,1440,True,Software bug,4.0
+TKT-00222,2026-04-16 07:01:00,2026-04-16 07:30:00,Closed,P1 - Critical,Account,MFA issue,Self-service Portal,Malaga,Service Desk,29.0,240,True,Network outage,5.0
+TKT-00223,2026-02-15 08:58:00,2026-02-15 09:25:00,Resolved,P3 - Medium,Printer,Driver issue,Phone,Wangara,Field Support,27.0,1440,True,Network outage,3.0
+TKT-00224,2026-01-21 12:25:00,2026-01-21 18:52:00,Resolved,P3 - Medium,Hardware,Monitor issue,Phone,Malaga,Service Desk,387.0,1440,True,Access permission,4.0
+TKT-00225,2026-04-14 13:24:00,2026-04-14 21:59:00,Closed,P3 - Medium,Security,Suspicious email,Email,Remote User,Desktop Support,515.0,1440,True,User error,5.0
+TKT-00226,2026-05-25 08:57:00,2026-05-26 09:28:00,Resolved,P3 - Medium,Software,Software update,Phone,Remote User,Field Support,1471.0,1440,False,Software bug,4.0
+TKT-00227,2026-03-13 15:36:00,2026-03-13 21:56:00,Resolved,P4 - Low,Hardware,Monitor issue,Walk-up,Perth CBD,Desktop Support,380.0,2880,True,Network outage,5.0
+TKT-00228,2026-01-20 11:10:00,2026-01-21 03:52:00,Resolved,P4 - Low,Network,Switch port issue,Monitoring Alert,Remote User,Field Support,1002.0,2880,True,Hardware failure,5.0
+TKT-00229,2026-06-26 18:05:00,2026-06-26 20:56:00,Resolved,P3 - Medium,Hardware,Docking station issue,Email,Perth CBD,Security Support,171.0,1440,True,Configuration issue,5.0
+TKT-00230,2026-06-02 13:49:00,2026-06-03 05:47:00,Resolved,P3 - Medium,Printer,Toner/maintenance,Monitoring Alert,Canning Vale,Desktop Support,958.0,1440,True,Hardware failure,4.0
+TKT-00231,2026-05-30 17:24:00,2026-05-31 10:03:00,Closed,P3 - Medium,Software,Installation request,Phone,Remote User,Service Desk,999.0,1440,True,User error,3.0
+TKT-00232,2026-02-09 18:24:00,2026-02-10 01:11:00,Resolved,P3 - Medium,Hardware,Workstation fault,Email,Perth CBD,Network Support,407.0,1440,True,Software bug,4.0
+TKT-00233,2026-02-17 13:28:00,2026-02-18 14:02:00,Closed,P3 - Medium,Hardware,Keyboard/mouse,Email,Perth CBD,Service Desk,1474.0,1440,False,Hardware failure,3.0
+TKT-00234,2026-04-09 07:18:00,2026-04-09 14:09:00,Resolved,P3 - Medium,Software,Application error,Self-service Portal,Wangara,Field Support,411.0,1440,True,Network outage,4.0
+TKT-00235,2026-03-19 11:31:00,2026-03-20 06:39:00,Closed,P3 - Medium,Network,LAN outage,Monitoring Alert,Malaga,Security Support,1148.0,1440,True,Hardware failure,3.0
+TKT-00236,2026-03-05 18:40:00,2026-03-06 00:18:00,Closed,P2 - High,Software,Software update,Monitoring Alert,Perth CBD,Desktop Support,338.0,480,True,Hardware failure,4.0
+TKT-00237,2026-04-08 12:28:00,2026-04-08 21:06:00,Resolved,P3 - Medium,Network,Switch port issue,Phone,Malaga,Network Support,518.0,1440,True,Network outage,4.0
+TKT-00238,2026-04-12 12:18:00,2026-04-12 15:45:00,Closed,P2 - High,Security,Unauthorized access attempt,Self-service Portal,Wangara,Network Support,207.0,480,True,Software bug,5.0
+TKT-00239,2026-05-25 10:37:00,2026-05-26 08:30:00,Closed,P4 - Low,Hardware,Monitor issue,Self-service Portal,Perth CBD,Security Support,1313.0,2880,True,Access permission,5.0
+TKT-00240,2026-01-18 13:43:00,2026-01-19 02:30:00,Resolved,P4 - Low,Network,Slow connection,Phone,Malaga,Desktop Support,767.0,2880,True,Access permission,4.0
+TKT-00241,2026-06-03 14:37:00,2026-06-04 01:31:00,Closed,P3 - Medium,Software,Performance issue,Self-service Portal,Perth CBD,Network Support,654.0,1440,True,Access permission,4.0
+TKT-00242,2026-01-22 08:49:00,2026-01-22 11:34:00,Closed,P3 - Medium,CCTV,Video playback issue,Phone,Remote User,Field Support,165.0,1440,True,User error,4.0
+TKT-00243,2026-03-26 13:06:00,2026-03-27 06:44:00,Closed,P3 - Medium,Software,Installation request,Phone,Osborne Park,Field Support,1058.0,1440,True,Network outage,3.0
+TKT-00244,2026-04-11 14:49:00,2026-04-12 11:25:00,Closed,P3 - Medium,Software,Software update,Walk-up,Perth CBD,Security Support,1236.0,1440,True,User error,5.0
+TKT-00245,2026-02-06 12:19:00,2026-02-07 03:36:00,Closed,P4 - Low,Hardware,Monitor issue,Self-service Portal,Canning Vale,Network Support,917.0,2880,True,Software bug,4.0
+TKT-00246,2026-01-18 11:02:00,2026-01-19 17:00:00,Closed,P3 - Medium,Network,Wi-Fi issue,Walk-up,Remote User,Service Desk,1798.0,1440,False,Access permission,4.0
+TKT-00247,2026-05-13 09:35:00,2026-05-14 07:03:00,Resolved,P4 - Low,Printer,Network printer offline,Monitoring Alert,Wangara,Security Support,1288.0,2880,True,Access permission,4.0
+TKT-00248,2026-01-08 18:39:00,2026-01-09 07:52:00,Closed,P3 - Medium,Network,VPN issue,Self-service Portal,Canning Vale,Security Support,793.0,1440,True,User error,5.0
+TKT-00249,2026-01-17 16:06:00,2026-01-17 20:13:00,Resolved,P2 - High,Account,Access request,Walk-up,Malaga,Desktop Support,247.0,480,True,Software bug,5.0
+TKT-00250,2026-06-13 12:38:00,2026-06-14 05:50:00,Closed,P3 - Medium,Network,VPN issue,Self-service Portal,Perth CBD,Network Support,1032.0,1440,True,Hardware failure,4.0
+TKT-00251,2026-06-30 11:58:00,2026-06-30 12:46:00,Resolved,P3 - Medium,Printer,Print queue issue,Phone,Malaga,Service Desk,48.0,1440,True,Configuration issue,5.0
+TKT-00252,2026-05-11 13:26:00,2026-05-11 19:28:00,Resolved,P2 - High,Hardware,Peripheral fault,Monitoring Alert,Canning Vale,Desktop Support,362.0,480,True,Software bug,5.0
+TKT-00253,2026-02-14 15:10:00,2026-02-14 18:52:00,Closed,P3 - Medium,Account,Access request,Phone,Malaga,Security Support,222.0,1440,True,Network outage,4.0
+TKT-00254,2026-02-04 10:52:00,2026-02-05 10:45:00,Closed,P3 - Medium,Network,Switch port issue,Self-service Portal,Remote User,Security Support,1433.0,1440,True,Software bug,4.0
+TKT-00255,2026-05-06 09:05:00,2026-05-06 09:40:00,Resolved,P3 - Medium,Account,Access request,Walk-up,Perth CBD,Network Support,35.0,1440,True,Configuration issue,5.0
+TKT-00256,2026-05-07 15:32:00,2026-05-07 16:31:00,Closed,P2 - High,Software,Application error,Walk-up,Osborne Park,Network Support,59.0,480,True,Network outage,3.0
+TKT-00257,2026-05-20 10:27:00,2026-05-20 12:36:00,Resolved,P1 - Critical,Printer,Driver issue,Walk-up,Perth CBD,Security Support,129.0,240,True,Hardware failure,3.0
+TKT-00258,2026-01-31 10:13:00,2026-01-31 11:38:00,Closed,P4 - Low,Hardware,Peripheral fault,Walk-up,Remote User,Field Support,85.0,2880,True,Access permission,5.0
+TKT-00259,2026-02-22 07:36:00,2026-02-22 14:35:00,Resolved,P3 - Medium,Software,Installation request,Self-service Portal,Osborne Park,Desktop Support,419.0,1440,True,Hardware failure,4.0
+TKT-00260,2026-05-12 17:52:00,2026-05-13 02:36:00,Closed,P3 - Medium,Security,Unauthorized access attempt,Email,Malaga,Desktop Support,524.0,1440,True,Access permission,3.0
+TKT-00261,2026-03-05 17:25:00,2026-03-05 22:50:00,Resolved,P3 - Medium,CCTV,Video playback issue,Monitoring Alert,Canning Vale,Security Support,325.0,1440,True,User error,4.0
+TKT-00262,2026-05-12 18:17:00,2026-05-12 21:14:00,Closed,P4 - Low,Account,MFA issue,Monitoring Alert,Canning Vale,Network Support,177.0,2880,True,Network outage,5.0
+TKT-00263,2026-04-28 17:42:00,2026-04-29 09:50:00,Resolved,P3 - Medium,Network,Wi-Fi issue,Self-service Portal,Canning Vale,Desktop Support,968.0,1440,True,Software bug,5.0
+TKT-00264,2026-03-14 12:35:00,2026-03-14 15:47:00,Closed,P3 - Medium,Printer,Network printer offline,Walk-up,Remote User,Service Desk,192.0,1440,True,User error,5.0
+TKT-00265,2026-02-01 09:28:00,2026-02-01 15:20:00,Closed,P4 - Low,Network,VPN issue,Phone,Remote User,Desktop Support,352.0,2880,True,Access permission,4.0
+TKT-00266,2026-01-24 17:23:00,,Open,P4 - Low,Hardware,Docking station issue,Email,Malaga,Desktop Support,,2880,,User error,
+TKT-00267,2026-03-01 13:41:00,2026-03-01 17:37:00,Resolved,P3 - Medium,Hardware,Workstation fault,Email,Wangara,Security Support,236.0,1440,True,User error,3.0
+TKT-00268,2026-01-03 07:44:00,2026-01-04 05:08:00,Resolved,P2 - High,Network,VPN issue,Phone,Canning Vale,Service Desk,1284.0,480,False,Configuration issue,3.0
+TKT-00269,2026-03-22 12:56:00,2026-03-22 23:12:00,Closed,P3 - Medium,Hardware,Keyboard/mouse,Phone,Remote User,Desktop Support,616.0,1440,True,User error,4.0
+TKT-00270,2026-04-23 12:46:00,2026-04-23 14:37:00,Closed,P1 - Critical,Software,Software update,Monitoring Alert,Osborne Park,Security Support,111.0,240,True,Unknown,4.0
+TKT-00271,2026-02-01 16:46:00,2026-02-02 06:28:00,Closed,P4 - Low,Network,VPN issue,Walk-up,Wangara,Desktop Support,822.0,2880,True,Hardware failure,4.0
+TKT-00272,2026-06-05 11:49:00,2026-06-05 13:51:00,Closed,P3 - Medium,Account,Password reset,Walk-up,Wangara,Field Support,122.0,1440,True,Network outage,5.0
+TKT-00273,2026-01-14 10:31:00,2026-01-14 16:48:00,Closed,P3 - Medium,Software,Software update,Monitoring Alert,Remote User,Field Support,377.0,1440,True,User error,4.0
+TKT-00274,2026-03-23 09:24:00,,Pending User,P4 - Low,Software,Performance issue,Walk-up,Osborne Park,Desktop Support,,2880,,Unknown,
+TKT-00275,2026-05-31 08:00:00,2026-05-31 14:28:00,Closed,P4 - Low,Software,Application error,Email,Canning Vale,Field Support,388.0,2880,True,Hardware failure,4.0
+TKT-00276,2026-06-29 13:05:00,2026-06-29 13:35:00,Closed,P3 - Medium,Account,Access request,Walk-up,Perth CBD,Network Support,30.0,1440,True,User error,5.0
+TKT-00277,2026-05-18 12:25:00,2026-05-19 02:20:00,Resolved,P2 - High,Software,Application error,Walk-up,Remote User,Security Support,835.0,480,False,Access permission,3.0
+TKT-00278,2026-04-22 08:29:00,2026-04-22 18:35:00,Closed,P3 - Medium,Security,Suspicious email,Walk-up,Remote User,Desktop Support,606.0,1440,True,User error,5.0
+TKT-00279,2026-05-08 12:33:00,2026-05-08 20:25:00,Closed,P2 - High,Network,Slow connection,Phone,Malaga,Desktop Support,472.0,480,True,Access permission,5.0
+TKT-00280,2026-01-08 12:51:00,,Open,P3 - Medium,Printer,Network printer offline,Walk-up,Osborne Park,Service Desk,,1440,,Hardware failure,
+TKT-00281,2026-04-27 15:23:00,2026-04-27 16:19:00,Closed,P3 - Medium,Account,Access request,Walk-up,Wangara,Network Support,56.0,1440,True,Unknown,3.0
+TKT-00282,2026-02-28 18:32:00,2026-02-28 22:52:00,Resolved,P3 - Medium,Network,Wi-Fi issue,Phone,Perth CBD,Security Support,260.0,1440,True,Hardware failure,3.0
+TKT-00283,2026-01-10 15:51:00,,Pending Vendor,P2 - High,Hardware,Keyboard/mouse,Phone,Malaga,Desktop Support,,480,,Software bug,
+TKT-00284,2026-05-27 12:07:00,2026-05-27 19:20:00,Resolved,P3 - Medium,CCTV,Camera offline,Phone,Wangara,Field Support,433.0,1440,True,User error,5.0
+TKT-00285,2026-03-14 11:20:00,2026-03-14 13:12:00,Closed,P2 - High,Security,Unauthorized access attempt,Email,Malaga,Desktop Support,112.0,480,True,Hardware failure,3.0
+TKT-00286,2026-04-29 12:37:00,2026-04-30 10:48:00,Closed,P3 - Medium,Software,Software update,Self-service Portal,Wangara,Desktop Support,1331.0,1440,True,User error,5.0
+TKT-00287,2026-06-12 18:56:00,2026-06-13 00:29:00,Closed,P1 - Critical,Security,Suspicious email,Monitoring Alert,Remote User,Network Support,333.0,240,False,User error,2.0
+TKT-00288,2026-01-16 09:45:00,2026-01-16 22:07:00,Closed,P4 - Low,Network,Wi-Fi issue,Phone,Osborne Park,Security Support,742.0,2880,True,Access permission,4.0
+TKT-00289,2026-05-29 08:32:00,2026-05-29 14:24:00,Resolved,P3 - Medium,CCTV,IP address conflict,Email,Osborne Park,Field Support,352.0,1440,True,User error,3.0
+TKT-00290,2026-03-08 12:59:00,2026-03-08 17:06:00,Closed,P4 - Low,Software,Installation request,Walk-up,Canning Vale,Network Support,247.0,2880,True,Configuration issue,5.0
+TKT-00291,2026-05-30 08:09:00,2026-05-30 13:31:00,Resolved,P2 - High,Network,VPN issue,Monitoring Alert,Malaga,Security Support,322.0,480,True,User error,3.0
+TKT-00292,2026-03-20 14:16:00,2026-03-21 10:14:00,Closed,P4 - Low,Software,Application error,Phone,Remote User,Network Support,1198.0,2880,True,Unknown,5.0
+TKT-00293,2026-03-25 09:05:00,2026-03-25 09:39:00,Closed,P3 - Medium,Account,MFA issue,Monitoring Alert,Osborne Park,Service Desk,34.0,1440,True,Access permission,5.0
+TKT-00294,2026-04-14 14:35:00,2026-04-15 11:37:00,Closed,P4 - Low,Hardware,Monitor issue,Email,Canning Vale,Service Desk,1262.0,2880,True,Unknown,5.0
+TKT-00295,2026-02-26 09:12:00,2026-02-26 11:21:00,Closed,P2 - High,Printer,Toner/maintenance,Email,Osborne Park,Field Support,129.0,480,True,Hardware failure,5.0
+TKT-00296,2026-02-20 17:28:00,,Pending User,P2 - High,CCTV,NVR connectivity,Email,Malaga,Service Desk,,480,,User error,
+TKT-00297,2026-04-21 18:25:00,,Pending Vendor,P2 - High,Security,Unauthorized access attempt,Email,Canning Vale,Security Support,,480,,Configuration issue,
+TKT-00298,2026-04-25 09:02:00,2026-04-25 15:49:00,Closed,P4 - Low,Hardware,Peripheral fault,Phone,Remote User,Network Support,407.0,2880,True,Software bug,5.0
+TKT-00299,2026-03-13 13:08:00,2026-03-13 21:23:00,Closed,P3 - Medium,Hardware,Peripheral fault,Phone,Remote User,Field Support,495.0,1440,True,Unknown,4.0
+TKT-00300,2026-05-03 15:50:00,2026-05-03 19:34:00,Resolved,P3 - Medium,Network,Switch port issue,Self-service Portal,Malaga,Security Support,224.0,1440,True,Hardware failure,4.0
+TKT-00301,2026-03-13 07:51:00,2026-03-13 12:59:00,Closed,P3 - Medium,Network,Switch port issue,Walk-up,Osborne Park,Desktop Support,308.0,1440,True,Configuration issue,5.0
+TKT-00302,2026-01-15 10:36:00,2026-01-16 00:49:00,Closed,P3 - Medium,Network,VPN issue,Walk-up,Wangara,Desktop Support,853.0,1440,True,Configuration issue,5.0
+TKT-00303,2026-06-01 07:45:00,2026-06-01 11:06:00,Resolved,P4 - Low,Account,Access request,Self-service Portal,Wangara,Security Support,201.0,2880,True,Network outage,5.0
+TKT-00304,2026-03-01 16:14:00,2026-03-02 09:15:00,Closed,P3 - Medium,Hardware,Keyboard/mouse,Email,Malaga,Field Support,1021.0,1440,True,Configuration issue,3.0
+TKT-00305,2026-03-24 07:01:00,2026-03-24 09:51:00,Closed,P3 - Medium,Printer,Driver issue,Email,Osborne Park,Network Support,170.0,1440,True,User error,3.0
+TKT-00306,2026-01-26 12:19:00,2026-01-27 09:27:00,Closed,P4 - Low,Hardware,Monitor issue,Monitoring Alert,Remote User,Security Support,1268.0,2880,True,Access permission,4.0
+TKT-00307,2026-06-07 12:14:00,2026-06-07 14:10:00,Closed,P3 - Medium,Hardware,Monitor issue,Monitoring Alert,Malaga,Network Support,116.0,1440,True,Configuration issue,5.0
+TKT-00308,2026-05-27 13:54:00,2026-05-27 17:47:00,Resolved,P1 - Critical,Network,Switch port issue,Email,Wangara,Field Support,233.0,240,True,Hardware failure,5.0
+TKT-00309,2026-05-25 08:59:00,2026-05-26 12:38:00,Closed,P4 - Low,CCTV,Video playback issue,Email,Wangara,Network Support,1659.0,2880,True,Hardware failure,4.0
+TKT-00310,2026-06-21 17:46:00,2026-06-21 19:56:00,Closed,P4 - Low,Network,VPN issue,Email,Malaga,Desktop Support,130.0,2880,True,Configuration issue,5.0
+TKT-00311,2026-01-01 07:24:00,2026-01-01 08:40:00,Resolved,P3 - Medium,Account,Account lockout,Phone,Canning Vale,Security Support,76.0,1440,True,Software bug,4.0
+TKT-00312,2026-05-28 17:48:00,2026-05-29 04:10:00,Resolved,P3 - Medium,Hardware,Monitor issue,Monitoring Alert,Perth CBD,Service Desk,622.0,1440,True,Hardware failure,5.0
+TKT-00313,2026-03-29 09:56:00,2026-03-30 02:35:00,Closed,P3 - Medium,Network,Wi-Fi issue,Self-service Portal,Perth CBD,Network Support,999.0,1440,True,Network outage,4.0
+TKT-00314,2026-04-21 17:10:00,2026-04-21 22:55:00,Resolved,P4 - Low,Security,Unauthorized access attempt,Phone,Perth CBD,Service Desk,345.0,2880,True,Hardware failure,5.0
+TKT-00315,2026-05-19 11:42:00,2026-05-19 20:52:00,Resolved,P2 - High,Network,Wi-Fi issue,Email,Canning Vale,Field Support,550.0,480,False,Network outage,3.0
+TKT-00316,2026-04-20 08:18:00,2026-04-20 17:59:00,Closed,P2 - High,Printer,Network printer offline,Phone,Perth CBD,Service Desk,581.0,480,False,Configuration issue,3.0
+TKT-00317,2026-01-30 11:50:00,2026-01-31 00:28:00,Closed,P3 - Medium,Network,VPN issue,Walk-up,Perth CBD,Field Support,758.0,1440,True,Software bug,4.0
+TKT-00318,2026-04-25 07:16:00,2026-04-25 17:11:00,Closed,P4 - Low,Network,Slow connection,Phone,Malaga,Field Support,595.0,2880,True,User error,4.0
+TKT-00319,2026-06-21 12:51:00,2026-06-21 23:48:00,Closed,P3 - Medium,Network,Switch port issue,Phone,Osborne Park,Service Desk,657.0,1440,True,Unknown,5.0
+TKT-00320,2026-06-25 14:36:00,,Pending User,P3 - Medium,Hardware,Monitor issue,Monitoring Alert,Malaga,Service Desk,,1440,,Software bug,
+TKT-00321,2026-05-13 16:43:00,2026-05-14 06:04:00,Closed,P3 - Medium,CCTV,NVR connectivity,Email,Canning Vale,Desktop Support,801.0,1440,True,Configuration issue,5.0
+TKT-00322,2026-04-19 08:43:00,2026-04-19 16:58:00,Closed,P4 - Low,Security,Malware alert,Self-service Portal,Malaga,Network Support,495.0,2880,True,Access permission,4.0
+TKT-00323,2026-04-12 15:20:00,2026-04-13 03:22:00,Closed,P2 - High,CCTV,IP address conflict,Email,Remote User,Field Support,722.0,480,False,Network outage,3.0
+TKT-00324,2026-02-07 16:37:00,2026-02-07 21:58:00,Closed,P3 - Medium,Software,Application error,Email,Osborne Park,Service Desk,321.0,1440,True,Unknown,5.0
+TKT-00325,2026-04-16 11:24:00,2026-04-17 00:46:00,Closed,P3 - Medium,Hardware,Peripheral fault,Self-service Portal,Canning Vale,Service Desk,802.0,1440,True,Configuration issue,5.0
+TKT-00326,2026-06-27 13:02:00,2026-06-27 18:20:00,Closed,P2 - High,Hardware,Docking station issue,Phone,Perth CBD,Security Support,318.0,480,True,Hardware failure,4.0
+TKT-00327,2026-03-19 11:17:00,2026-03-19 21:37:00,Resolved,P1 - Critical,CCTV,Camera offline,Phone,Wangara,Network Support,620.0,240,False,Access permission,3.0
+TKT-00328,2026-04-17 16:41:00,2026-04-18 00:44:00,Closed,P4 - Low,Software,Performance issue,Phone,Canning Vale,Security Support,483.0,2880,True,Unknown,3.0
+TKT-00329,2026-02-10 08:19:00,2026-02-10 09:06:00,Closed,P3 - Medium,Software,Performance issue,Phone,Osborne Park,Field Support,47.0,1440,True,User error,5.0
+TKT-00330,2026-01-15 10:02:00,2026-01-15 14:45:00,Closed,P4 - Low,Network,Slow connection,Phone,Malaga,Network Support,283.0,2880,True,Unknown,4.0
+TKT-00331,2026-06-24 07:15:00,,Pending Vendor,P3 - Medium,Software,Installation request,Monitoring Alert,Osborne Park,Security Support,,1440,,Configuration issue,
+TKT-00332,2026-03-30 09:53:00,2026-03-31 05:29:00,Closed,P3 - Medium,Security,Suspicious email,Walk-up,Perth CBD,Security Support,1176.0,1440,True,User error,5.0
+TKT-00333,2026-02-26 17:14:00,,Pending User,P3 - Medium,Network,LAN outage,Walk-up,Remote User,Security Support,,1440,,Network outage,
+TKT-00334,2026-01-03 14:58:00,2026-01-03 15:53:00,Resolved,P4 - Low,Network,LAN outage,Self-service Portal,Perth CBD,Desktop Support,55.0,2880,True,Hardware failure,3.0
+TKT-00335,2026-06-14 11:27:00,2026-06-14 12:11:00,Resolved,P4 - Low,Account,MFA issue,Monitoring Alert,Malaga,Desktop Support,44.0,2880,True,Software bug,5.0
+TKT-00336,2026-05-30 08:00:00,2026-05-31 05:44:00,Closed,P3 - Medium,Hardware,Docking station issue,Self-service Portal,Remote User,Field Support,1304.0,1440,True,Network outage,5.0
+TKT-00337,2026-03-28 11:40:00,2026-03-29 03:24:00,Closed,P3 - Medium,Hardware,Docking station issue,Walk-up,Remote User,Network Support,944.0,1440,True,Configuration issue,4.0
+TKT-00338,2026-06-03 13:42:00,,Open,P3 - Medium,Network,Slow connection,Phone,Remote User,Service Desk,,1440,,Access permission,
+TKT-00339,2026-04-14 13:47:00,,Open,P3 - Medium,Software,Application error,Self-service Portal,Remote User,Field Support,,1440,,Unknown,
+TKT-00340,2026-05-17 17:50:00,2026-05-17 21:47:00,Closed,P3 - Medium,Network,Slow connection,Self-service Portal,Malaga,Desktop Support,237.0,1440,True,Unknown,4.0
+TKT-00341,2026-05-01 09:47:00,2026-05-01 12:07:00,Closed,P3 - Medium,Account,Access request,Walk-up,Remote User,Service Desk,140.0,1440,True,Configuration issue,4.0
+TKT-00342,2026-03-26 12:16:00,2026-03-26 19:00:00,Closed,P3 - Medium,Hardware,Keyboard/mouse,Email,Canning Vale,Service Desk,404.0,1440,True,Unknown,5.0
+TKT-00343,2026-05-01 10:32:00,2026-05-01 15:03:00,Closed,P3 - Medium,Account,Account lockout,Self-service Portal,Malaga,Security Support,271.0,1440,True,User error,3.0
+TKT-00344,2026-03-29 13:36:00,,Pending User,P2 - High,CCTV,IP address conflict,Phone,Malaga,Desktop Support,,480,,Unknown,
+TKT-00345,2026-03-22 17:03:00,,Pending User,P3 - Medium,Network,Wi-Fi issue,Monitoring Alert,Malaga,Desktop Support,,1440,,Unknown,
+TKT-00346,2026-01-23 09:39:00,2026-01-23 11:44:00,Closed,P3 - Medium,Printer,Network printer offline,Monitoring Alert,Canning Vale,Security Support,125.0,1440,True,Software bug,4.0
+TKT-00347,2026-01-04 12:48:00,2026-01-05 03:02:00,Resolved,P3 - Medium,Network,LAN outage,Email,Remote User,Service Desk,854.0,1440,True,Access permission,5.0
+TKT-00348,2026-03-21 09:06:00,,Open,P2 - High,Account,Account lockout,Self-service Portal,Osborne Park,Network Support,,480,,Configuration issue,
+TKT-00349,2026-04-27 18:33:00,,Pending Vendor,P1 - Critical,Network,Switch port issue,Self-service Portal,Malaga,Security Support,,240,,Access permission,
+TKT-00350,2026-04-02 10:10:00,,Open,P3 - Medium,Security,Unauthorized access attempt,Email,Wangara,Desktop Support,,1440,,Access permission,
+TKT-00351,2026-05-10 09:07:00,2026-05-10 09:54:00,Closed,P2 - High,Security,Suspicious email,Monitoring Alert,Remote User,Network Support,47.0,480,True,Unknown,4.0
+TKT-00352,2026-06-19 08:41:00,,Pending User,P1 - Critical,Software,Application error,Email,Remote User,Service Desk,,240,,Software bug,
+TKT-00353,2026-06-29 09:13:00,2026-06-29 16:09:00,Closed,P2 - High,Software,Application error,Walk-up,Canning Vale,Service Desk,416.0,480,True,Access permission,5.0
+TKT-00354,2026-04-18 08:32:00,2026-04-18 11:12:00,Resolved,P3 - Medium,Software,Application error,Walk-up,Perth CBD,Service Desk,160.0,1440,True,Software bug,5.0
+TKT-00355,2026-05-14 10:22:00,2026-05-14 17:09:00,Closed,P2 - High,Network,Slow connection,Phone,Perth CBD,Field Support,407.0,480,True,Software bug,5.0
+TKT-00356,2026-03-02 07:00:00,2026-03-03 03:55:00,Closed,P3 - Medium,CCTV,Camera offline,Self-service Portal,Remote User,Security Support,1255.0,1440,True,Configuration issue,5.0
+TKT-00357,2026-01-26 11:41:00,2026-01-26 15:02:00,Closed,P3 - Medium,Security,Firewall alert,Walk-up,Canning Vale,Service Desk,201.0,1440,True,User error,4.0
+TKT-00358,2026-04-03 17:20:00,2026-04-04 03:12:00,Resolved,P4 - Low,Printer,Print queue issue,Email,Perth CBD,Service Desk,592.0,2880,True,Unknown,4.0
+TKT-00359,2026-04-23 16:17:00,2026-04-24 15:42:00,Closed,P3 - Medium,Network,Wi-Fi issue,Walk-up,Malaga,Desktop Support,1405.0,1440,True,User error,5.0
+TKT-00360,2026-04-09 18:54:00,2026-04-10 04:03:00,Closed,P4 - Low,Hardware,Keyboard/mouse,Phone,Perth CBD,Desktop Support,549.0,2880,True,Access permission,4.0
+TKT-00361,2026-01-27 13:58:00,2026-01-27 15:15:00,Resolved,P4 - Low,Account,Account lockout,Phone,Osborne Park,Security Support,77.0,2880,True,Unknown,5.0
+TKT-00362,2026-02-03 14:58:00,2026-02-03 19:02:00,Resolved,P1 - Critical,Hardware,Keyboard/mouse,Email,Perth CBD,Network Support,244.0,240,False,Access permission,3.0
+TKT-00363,2026-05-28 18:36:00,2026-05-29 05:02:00,Resolved,P3 - Medium,Hardware,Docking station issue,Self-service Portal,Osborne Park,Field Support,626.0,1440,True,User error,4.0
+TKT-00364,2026-06-19 17:41:00,2026-06-20 09:30:00,Closed,P3 - Medium,Software,Application error,Email,Remote User,Desktop Support,949.0,1440,True,Network outage,4.0
+TKT-00365,2026-01-20 14:20:00,2026-01-20 20:30:00,Resolved,P4 - Low,Printer,Toner/maintenance,Email,Osborne Park,Desktop Support,370.0,2880,True,Network outage,4.0
+TKT-00366,2026-04-28 14:51:00,2026-04-28 16:24:00,Closed,P3 - Medium,Account,Password reset,Monitoring Alert,Canning Vale,Network Support,93.0,1440,True,User error,5.0
+TKT-00367,2026-04-14 13:02:00,2026-04-14 15:43:00,Closed,P3 - Medium,Security,Suspicious email,Email,Osborne Park,Field Support,161.0,1440,True,Access permission,5.0
+TKT-00368,2026-06-21 14:21:00,2026-06-21 16:13:00,Closed,P3 - Medium,Hardware,Workstation fault,Phone,Canning Vale,Network Support,112.0,1440,True,Network outage,4.0
+TKT-00369,2026-04-04 18:28:00,2026-04-04 19:56:00,Resolved,P3 - Medium,Printer,Driver issue,Email,Malaga,Network Support,88.0,1440,True,Unknown,3.0
+TKT-00370,2026-04-06 18:06:00,2026-04-06 19:01:00,Closed,P4 - Low,Account,Access request,Monitoring Alert,Wangara,Security Support,55.0,2880,True,User error,3.0
+TKT-00371,2026-04-11 10:29:00,2026-04-11 16:34:00,Closed,P2 - High,Hardware,Monitor issue,Walk-up,Perth CBD,Security Support,365.0,480,True,User error,5.0
+TKT-00372,2026-04-26 14:42:00,2026-04-26 18:42:00,Closed,P4 - Low,CCTV,NVR connectivity,Monitoring Alert,Perth CBD,Field Support,240.0,2880,True,Access permission,5.0
+TKT-00373,2026-05-04 15:49:00,2026-05-05 02:59:00,Resolved,P4 - Low,Network,LAN outage,Self-service Portal,Wangara,Desktop Support,670.0,2880,True,User error,5.0
+TKT-00374,2026-05-10 13:26:00,,Open,P3 - Medium,Hardware,Peripheral fault,Phone,Malaga,Security Support,,1440,,Hardware failure,
+TKT-00375,2026-04-16 16:44:00,2026-04-17 07:04:00,Closed,P3 - Medium,Security,Firewall alert,Self-service Portal,Malaga,Field Support,860.0,1440,True,Access permission,5.0
+TKT-00376,2026-06-25 12:58:00,2026-06-25 18:00:00,Resolved,P2 - High,Network,LAN outage,Self-service Portal,Osborne Park,Network Support,302.0,480,True,Access permission,5.0
+TKT-00377,2026-05-27 17:45:00,2026-05-29 08:10:00,Closed,P3 - Medium,Network,Switch port issue,Walk-up,Canning Vale,Service Desk,2305.0,1440,False,Network outage,2.0
+TKT-00378,2026-01-15 10:17:00,2026-01-15 19:00:00,Closed,P3 - Medium,Network,LAN outage,Walk-up,Remote User,Network Support,523.0,1440,True,Configuration issue,5.0
+TKT-00379,2026-05-19 07:22:00,2026-05-19 13:10:00,Closed,P3 - Medium,Printer,Print queue issue,Self-service Portal,Remote User,Field Support,348.0,1440,True,Unknown,5.0
+TKT-00380,2026-05-11 18:18:00,2026-05-12 01:44:00,Closed,P3 - Medium,Network,Wi-Fi issue,Monitoring Alert,Canning Vale,Security Support,446.0,1440,True,Unknown,5.0
+TKT-00381,2026-01-04 18:16:00,2026-01-05 00:45:00,Closed,P3 - Medium,Security,Unauthorized access attempt,Phone,Remote User,Network Support,389.0,1440,True,Unknown,4.0
+TKT-00382,2026-02-19 11:28:00,2026-02-19 16:13:00,Closed,P3 - Medium,Software,Application error,Phone,Wangara,Field Support,285.0,1440,True,User error,4.0
+TKT-00383,2026-02-03 09:37:00,2026-02-03 17:46:00,Closed,P3 - Medium,Hardware,Workstation fault,Walk-up,Canning Vale,Desktop Support,489.0,1440,True,User error,5.0
+TKT-00384,2026-06-10 16:53:00,2026-06-11 15:10:00,Closed,P3 - Medium,Network,VPN issue,Self-service Portal,Osborne Park,Network Support,1337.0,1440,True,User error,5.0
+TKT-00385,2026-02-17 15:04:00,2026-02-18 02:36:00,Closed,P3 - Medium,Printer,Driver issue,Monitoring Alert,Osborne Park,Field Support,692.0,1440,True,Software bug,5.0
+TKT-00386,2026-03-26 12:23:00,2026-03-26 13:00:00,Closed,P2 - High,Network,Switch port issue,Self-service Portal,Canning Vale,Field Support,37.0,480,True,Unknown,4.0
+TKT-00387,2026-03-30 14:15:00,2026-03-30 15:32:00,Closed,P3 - Medium,Printer,Driver issue,Email,Remote User,Network Support,77.0,1440,True,Software bug,5.0
+TKT-00388,2026-05-19 18:18:00,2026-05-20 03:13:00,Closed,P4 - Low,CCTV,Video playback issue,Self-service Portal,Osborne Park,Security Support,535.0,2880,True,Software bug,3.0
+TKT-00389,2026-05-12 08:06:00,2026-05-13 06:25:00,Closed,P4 - Low,Network,Switch port issue,Self-service Portal,Perth CBD,Service Desk,1339.0,2880,True,Configuration issue,4.0
+TKT-00390,2026-04-19 08:13:00,2026-04-19 13:25:00,Resolved,P3 - Medium,Account,Account lockout,Email,Remote User,Desktop Support,312.0,1440,True,User error,5.0
+TKT-00391,2026-01-14 09:50:00,2026-01-14 22:21:00,Closed,P3 - Medium,Software,Application error,Self-service Portal,Wangara,Network Support,751.0,1440,True,Software bug,4.0
+TKT-00392,2026-01-05 13:43:00,2026-01-05 17:16:00,Closed,P3 - Medium,Hardware,Workstation fault,Self-service Portal,Perth CBD,Field Support,213.0,1440,True,User error,3.0
+TKT-00393,2026-01-28 11:50:00,,Pending Vendor,P2 - High,Account,MFA issue,Self-service Portal,Perth CBD,Network Support,,480,,Unknown,
+TKT-00394,2026-01-08 14:10:00,2026-01-09 08:01:00,Resolved,P3 - Medium,CCTV,NVR connectivity,Monitoring Alert,Osborne Park,Network Support,1071.0,1440,True,Access permission,5.0
+TKT-00395,2026-06-15 12:00:00,,Open,P3 - Medium,Network,Switch port issue,Self-service Portal,Wangara,Service Desk,,1440,,User error,
+TKT-00396,2026-01-22 11:13:00,2026-01-22 17:21:00,Closed,P3 - Medium,Network,Slow connection,Phone,Canning Vale,Field Support,368.0,1440,True,Configuration issue,5.0
+TKT-00397,2026-02-19 08:11:00,2026-02-19 12:50:00,Resolved,P2 - High,Network,Switch port issue,Email,Osborne Park,Security Support,279.0,480,True,Access permission,5.0
+TKT-00398,2026-01-26 10:46:00,2026-01-27 03:13:00,Closed,P3 - Medium,Software,Installation request,Walk-up,Wangara,Desktop Support,987.0,1440,True,User error,5.0
+TKT-00399,2026-05-05 14:21:00,2026-05-06 01:51:00,Closed,P2 - High,Hardware,Peripheral fault,Phone,Osborne Park,Field Support,690.0,480,False,Hardware failure,4.0
+TKT-00400,2026-03-22 10:50:00,2026-03-22 16:17:00,Closed,P4 - Low,Printer,Network printer offline,Walk-up,Malaga,Desktop Support,327.0,2880,True,Access permission,4.0
+TKT-00401,2026-04-02 11:31:00,2026-04-02 15:28:00,Closed,P4 - Low,Account,Access request,Self-service Portal,Perth CBD,Network Support,237.0,2880,True,Unknown,5.0
+TKT-00402,2026-06-10 08:46:00,2026-06-10 10:56:00,Closed,P4 - Low,Printer,Print queue issue,Self-service Portal,Remote User,Service Desk,130.0,2880,True,Unknown,3.0
+TKT-00403,2026-01-10 15:16:00,2026-01-10 20:07:00,Closed,P3 - Medium,Software,Performance issue,Phone,Malaga,Security Support,291.0,1440,True,Configuration issue,5.0
+TKT-00404,2026-02-04 14:32:00,2026-02-05 16:11:00,Resolved,P3 - Medium,CCTV,Video playback issue,Self-service Portal,Perth CBD,Desktop Support,1539.0,1440,False,Unknown,4.0
+TKT-00405,2026-05-12 09:28:00,2026-05-12 11:27:00,Resolved,P4 - Low,Security,Malware alert,Monitoring Alert,Malaga,Service Desk,119.0,2880,True,Configuration issue,4.0
+TKT-00406,2026-03-01 07:42:00,2026-03-01 15:26:00,Closed,P3 - Medium,Printer,Toner/maintenance,Monitoring Alert,Canning Vale,Security Support,464.0,1440,True,User error,4.0
+TKT-00407,2026-05-14 17:53:00,2026-05-14 18:42:00,Closed,P3 - Medium,Network,Slow connection,Self-service Portal,Osborne Park,Field Support,49.0,1440,True,Configuration issue,4.0
+TKT-00408,2026-01-20 15:16:00,2026-01-21 21:00:00,Closed,P3 - Medium,Hardware,Peripheral fault,Monitoring Alert,Malaga,Network Support,1784.0,1440,False,Software bug,3.0
+TKT-00409,2026-02-05 14:10:00,2026-02-05 18:36:00,Closed,P4 - Low,Printer,Toner/maintenance,Phone,Wangara,Desktop Support,266.0,2880,True,Configuration issue,4.0
+TKT-00410,2026-02-28 13:51:00,2026-03-01 03:16:00,Closed,P3 - Medium,Hardware,Workstation fault,Monitoring Alert,Remote User,Security Support,805.0,1440,True,Software bug,4.0
+TKT-00411,2026-01-06 10:02:00,2026-01-06 16:51:00,Resolved,P2 - High,Network,Switch port issue,Phone,Wangara,Field Support,409.0,480,True,User error,3.0
+TKT-00412,2026-02-16 15:25:00,2026-02-17 01:55:00,Closed,P2 - High,CCTV,Camera offline,Walk-up,Perth CBD,Desktop Support,630.0,480,False,Software bug,3.0
+TKT-00413,2026-02-26 13:38:00,2026-02-26 16:25:00,Closed,P3 - Medium,Account,Access request,Self-service Portal,Remote User,Field Support,167.0,1440,True,Hardware failure,3.0
+TKT-00414,2026-06-02 16:04:00,,Pending Vendor,P3 - Medium,Network,LAN outage,Monitoring Alert,Canning Vale,Desktop Support,,1440,,User error,
+TKT-00415,2026-06-25 13:52:00,,Open,P3 - Medium,Network,LAN outage,Self-service Portal,Perth CBD,Desktop Support,,1440,,Software bug,
+TKT-00416,2026-05-17 15:48:00,,Open,P3 - Medium,CCTV,Camera offline,Email,Canning Vale,Desktop Support,,1440,,Network outage,
+TKT-00417,2026-06-23 17:27:00,,Pending Vendor,P1 - Critical,Software,Performance issue,Walk-up,Perth CBD,Field Support,,240,,Software bug,
+TKT-00418,2026-04-08 12:37:00,2026-04-08 18:34:00,Resolved,P4 - Low,Network,Switch port issue,Email,Canning Vale,Desktop Support,357.0,2880,True,Hardware failure,5.0
+TKT-00419,2026-03-14 16:56:00,2026-03-15 01:37:00,Resolved,P3 - Medium,Software,Installation request,Phone,Perth CBD,Service Desk,521.0,1440,True,Network outage,5.0
+TKT-00420,2026-02-22 18:51:00,2026-02-22 21:58:00,Closed,P3 - Medium,Software,Installation request,Email,Wangara,Security Support,187.0,1440,True,Access permission,4.0
+TKT-00421,2026-05-25 12:39:00,2026-05-26 03:51:00,Closed,P3 - Medium,Software,Performance issue,Phone,Canning Vale,Field Support,912.0,1440,True,Unknown,4.0
+TKT-00422,2026-05-04 11:19:00,2026-05-04 19:15:00,Closed,P2 - High,Software,Performance issue,Phone,Remote User,Service Desk,476.0,480,True,Access permission,5.0
+TKT-00423,2026-01-26 10:32:00,,Pending Vendor,P4 - Low,Network,VPN issue,Walk-up,Osborne Park,Field Support,,2880,,Access permission,
+TKT-00424,2026-06-12 07:51:00,2026-06-12 11:08:00,Closed,P2 - High,Account,Access request,Monitoring Alert,Osborne Park,Security Support,197.0,480,True,User error,3.0
+TKT-00425,2026-01-10 18:24:00,2026-01-10 19:18:00,Closed,P2 - High,Network,VPN issue,Self-service Portal,Remote User,Field Support,54.0,480,True,Hardware failure,5.0
+TKT-00426,2026-02-14 17:31:00,,Pending Vendor,P3 - Medium,Account,Account lockout,Email,Wangara,Field Support,,1440,,Hardware failure,
+TKT-00427,2026-06-28 10:39:00,2026-06-29 03:38:00,Closed,P4 - Low,Network,Wi-Fi issue,Walk-up,Wangara,Service Desk,1019.0,2880,True,Configuration issue,4.0
+TKT-00428,2026-06-21 13:25:00,2026-06-21 17:53:00,Closed,P3 - Medium,Network,Switch port issue,Email,Remote User,Service Desk,268.0,1440,True,User error,5.0
+TKT-00429,2026-05-30 12:22:00,2026-05-30 16:50:00,Closed,P3 - Medium,Software,Installation request,Phone,Osborne Park,Desktop Support,268.0,1440,True,Software bug,5.0
+TKT-00430,2026-04-15 15:06:00,2026-04-15 18:19:00,Closed,P3 - Medium,CCTV,Video playback issue,Walk-up,Perth CBD,Field Support,193.0,1440,True,Hardware failure,5.0
+TKT-00431,2026-06-27 14:24:00,2026-06-27 21:43:00,Closed,P4 - Low,CCTV,NVR connectivity,Walk-up,Canning Vale,Security Support,439.0,2880,True,Network outage,5.0
+TKT-00432,2026-04-08 17:50:00,2026-04-09 19:33:00,Closed,P3 - Medium,CCTV,NVR connectivity,Walk-up,Canning Vale,Network Support,1543.0,1440,False,Network outage,3.0
+TKT-00433,2026-03-15 08:25:00,2026-03-15 19:09:00,Closed,P3 - Medium,Software,Installation request,Email,Osborne Park,Desktop Support,644.0,1440,True,Software bug,5.0
+TKT-00434,2026-02-16 18:43:00,2026-02-17 03:20:00,Closed,P2 - High,Hardware,Keyboard/mouse,Phone,Wangara,Desktop Support,517.0,480,False,Unknown,4.0
+TKT-00435,2026-06-08 12:09:00,2026-06-08 16:46:00,Resolved,P2 - High,Hardware,Workstation fault,Email,Remote User,Security Support,277.0,480,True,Network outage,5.0
+TKT-00436,2026-05-04 12:39:00,,Pending Vendor,P4 - Low,Network,Slow connection,Monitoring Alert,Osborne Park,Network Support,,2880,,Software bug,
+TKT-00437,2026-04-12 10:48:00,2026-04-13 04:58:00,Closed,P3 - Medium,Network,Wi-Fi issue,Self-service Portal,Canning Vale,Security Support,1090.0,1440,True,Network outage,5.0
+TKT-00438,2026-02-14 14:07:00,2026-02-14 18:41:00,Resolved,P3 - Medium,Network,VPN issue,Walk-up,Remote User,Service Desk,274.0,1440,True,User error,5.0
+TKT-00439,2026-04-03 16:55:00,2026-04-03 19:04:00,Closed,P3 - Medium,Account,MFA issue,Phone,Malaga,Security Support,129.0,1440,True,Network outage,4.0
+TKT-00440,2026-04-18 18:48:00,2026-04-19 18:00:00,Closed,P2 - High,Hardware,Docking station issue,Monitoring Alert,Wangara,Field Support,1392.0,480,False,Configuration issue,3.0
+TKT-00441,2026-03-11 10:35:00,2026-03-11 21:36:00,Resolved,P3 - Medium,Security,Unauthorized access attempt,Phone,Wangara,Desktop Support,661.0,1440,True,Software bug,4.0
+TKT-00442,2026-06-11 15:34:00,2026-06-11 17:54:00,Closed,P2 - High,Printer,Network printer offline,Walk-up,Malaga,Field Support,140.0,480,True,Unknown,5.0
+TKT-00443,2026-01-16 10:52:00,2026-01-16 22:35:00,Resolved,P3 - Medium,Software,Application error,Monitoring Alert,Remote User,Network Support,703.0,1440,True,Hardware failure,4.0
+TKT-00444,2026-03-07 12:01:00,,Pending Vendor,P3 - Medium,Hardware,Keyboard/mouse,Email,Malaga,Field Support,,1440,,Configuration issue,
+TKT-00445,2026-03-14 12:20:00,2026-03-14 19:24:00,Closed,P3 - Medium,Software,Performance issue,Monitoring Alert,Perth CBD,Security Support,424.0,1440,True,Network outage,5.0
+TKT-00446,2026-02-12 17:51:00,2026-02-13 09:28:00,Closed,P3 - Medium,Hardware,Keyboard/mouse,Self-service Portal,Osborne Park,Security Support,937.0,1440,True,Unknown,5.0
+TKT-00447,2026-03-22 12:41:00,2026-03-23 01:05:00,Closed,P2 - High,CCTV,IP address conflict,Walk-up,Canning Vale,Network Support,744.0,480,False,Access permission,3.0
+TKT-00448,2026-02-17 07:08:00,2026-02-17 23:25:00,Closed,P4 - Low,Software,Installation request,Email,Wangara,Desktop Support,977.0,2880,True,Software bug,5.0
+TKT-00449,2026-05-21 07:01:00,,Open,P2 - High,Network,VPN issue,Self-service Portal,Perth CBD,Service Desk,,480,,Hardware failure,
+TKT-00450,2026-04-10 11:14:00,,Pending Vendor,P2 - High,Account,Access request,Walk-up,Canning Vale,Desktop Support,,480,,Configuration issue,
+TKT-00451,2026-04-02 12:55:00,2026-04-02 20:37:00,Closed,P2 - High,Software,Installation request,Self-service Portal,Canning Vale,Desktop Support,462.0,480,True,Access permission,4.0
+TKT-00452,2026-06-12 16:27:00,2026-06-13 01:13:00,Closed,P3 - Medium,Software,Installation request,Walk-up,Canning Vale,Field Support,526.0,1440,True,Configuration issue,5.0
+TKT-00453,2026-03-08 09:19:00,2026-03-08 11:11:00,Closed,P3 - Medium,Printer,Driver issue,Walk-up,Malaga,Security Support,112.0,1440,True,Network outage,3.0
+TKT-00454,2026-05-03 11:00:00,,Pending Vendor,P4 - Low,Network,VPN issue,Walk-up,Osborne Park,Desktop Support,,2880,,Unknown,
+TKT-00455,2026-05-24 13:25:00,2026-05-24 21:29:00,Closed,P3 - Medium,Network,VPN issue,Monitoring Alert,Wangara,Network Support,484.0,1440,True,User error,4.0
+TKT-00456,2026-06-06 18:43:00,2026-06-07 06:54:00,Resolved,P3 - Medium,Software,Installation request,Monitoring Alert,Wangara,Service Desk,731.0,1440,True,Configuration issue,4.0
+TKT-00457,2026-04-26 11:44:00,2026-04-26 23:42:00,Closed,P2 - High,Network,Slow connection,Email,Wangara,Service Desk,718.0,480,False,Network outage,4.0
+TKT-00458,2026-02-02 18:28:00,2026-02-03 02:03:00,Closed,P4 - Low,Network,LAN outage,Email,Wangara,Service Desk,455.0,2880,True,Software bug,5.0
+TKT-00459,2026-05-08 12:29:00,2026-05-08 18:18:00,Resolved,P3 - Medium,Network,Wi-Fi issue,Walk-up,Perth CBD,Desktop Support,349.0,1440,True,User error,5.0
+TKT-00460,2026-02-16 10:57:00,2026-02-16 18:44:00,Closed,P3 - Medium,Hardware,Keyboard/mouse,Email,Perth CBD,Desktop Support,467.0,1440,True,Software bug,5.0
+TKT-00461,2026-01-09 10:29:00,2026-01-09 22:05:00,Resolved,P3 - Medium,Printer,Print queue issue,Self-service Portal,Remote User,Desktop Support,696.0,1440,True,Software bug,5.0
+TKT-00462,2026-02-10 17:46:00,,Pending Vendor,P4 - Low,Hardware,Workstation fault,Self-service Portal,Osborne Park,Service Desk,,2880,,Hardware failure,
+TKT-00463,2026-01-14 17:13:00,2026-01-15 12:39:00,Closed,P3 - Medium,Software,Software update,Monitoring Alert,Malaga,Service Desk,1166.0,1440,True,Configuration issue,5.0
+TKT-00464,2026-03-04 07:02:00,2026-03-04 12:50:00,Closed,P3 - Medium,Printer,Network printer offline,Self-service Portal,Wangara,Network Support,348.0,1440,True,Unknown,5.0
+TKT-00465,2026-06-08 12:59:00,2026-06-08 20:37:00,Closed,P2 - High,Network,Wi-Fi issue,Email,Malaga,Desktop Support,458.0,480,True,Access permission,5.0
+TKT-00466,2026-03-23 15:50:00,2026-03-24 02:17:00,Closed,P2 - High,Software,Performance issue,Phone,Perth CBD,Security Support,627.0,480,False,Hardware failure,4.0
+TKT-00467,2026-06-30 14:35:00,2026-06-30 16:57:00,Closed,P3 - Medium,Account,Account lockout,Phone,Osborne Park,Desktop Support,142.0,1440,True,Network outage,4.0
+TKT-00468,2026-06-03 15:10:00,2026-06-04 11:53:00,Closed,P3 - Medium,Hardware,Monitor issue,Monitoring Alert,Malaga,Network Support,1243.0,1440,True,Network outage,3.0
+TKT-00469,2026-04-08 18:11:00,2026-04-08 21:06:00,Closed,P1 - Critical,Hardware,Peripheral fault,Walk-up,Osborne Park,Desktop Support,175.0,240,True,Hardware failure,5.0
+TKT-00470,2026-04-10 10:33:00,2026-04-10 16:11:00,Closed,P3 - Medium,Account,Access request,Self-service Portal,Malaga,Network Support,338.0,1440,True,Software bug,5.0
+TKT-00471,2026-01-18 07:53:00,2026-01-18 09:02:00,Closed,P2 - High,Account,Access request,Email,Wangara,Service Desk,69.0,480,True,Software bug,5.0
+TKT-00472,2026-04-10 17:31:00,2026-04-11 03:16:00,Closed,P1 - Critical,Network,Switch port issue,Walk-up,Perth CBD,Network Support,585.0,240,False,Configuration issue,3.0
+TKT-00473,2026-02-23 17:31:00,,Pending Vendor,P2 - High,Account,Password reset,Monitoring Alert,Remote User,Service Desk,,480,,Hardware failure,
+TKT-00474,2026-04-05 18:03:00,2026-04-06 02:25:00,Closed,P4 - Low,Software,Installation request,Self-service Portal,Perth CBD,Service Desk,502.0,2880,True,Unknown,5.0
+TKT-00475,2026-01-25 08:46:00,,Pending User,P4 - Low,Hardware,Monitor issue,Self-service Portal,Canning Vale,Desktop Support,,2880,,Configuration issue,
+TKT-00476,2026-02-15 15:47:00,2026-02-15 19:38:00,Closed,P3 - Medium,Software,Application error,Self-service Portal,Malaga,Security Support,231.0,1440,True,Access permission,5.0
+TKT-00477,2026-02-16 15:25:00,2026-02-16 18:26:00,Closed,P4 - Low,Account,Access request,Self-service Portal,Osborne Park,Security Support,181.0,2880,True,Hardware failure,5.0
+TKT-00478,2026-04-06 13:48:00,,Pending User,P3 - Medium,CCTV,IP address conflict,Walk-up,Osborne Park,Desktop Support,,1440,,Network outage,
+TKT-00479,2026-03-07 12:28:00,2026-03-08 03:15:00,Closed,P3 - Medium,Software,Performance issue,Email,Remote User,Service Desk,887.0,1440,True,Hardware failure,4.0
+TKT-00480,2026-03-19 07:19:00,,Pending User,P3 - Medium,Account,Access request,Phone,Malaga,Service Desk,,1440,,Unknown,
+TKT-00481,2026-05-22 15:35:00,2026-05-22 22:12:00,Closed,P3 - Medium,Printer,Driver issue,Email,Perth CBD,Security Support,397.0,1440,True,Hardware failure,5.0
+TKT-00482,2026-03-05 10:16:00,,Open,P3 - Medium,Network,Slow connection,Email,Osborne Park,Security Support,,1440,,Network outage,
+TKT-00483,2026-05-04 09:31:00,2026-05-05 03:25:00,Resolved,P3 - Medium,CCTV,Camera offline,Self-service Portal,Remote User,Network Support,1074.0,1440,True,User error,5.0
+TKT-00484,2026-01-15 12:22:00,2026-01-15 13:39:00,Closed,P3 - Medium,Account,Account lockout,Monitoring Alert,Perth CBD,Desktop Support,77.0,1440,True,Access permission,5.0
+TKT-00485,2026-06-11 13:03:00,2026-06-11 14:28:00,Closed,P3 - Medium,Account,Password reset,Walk-up,Osborne Park,Field Support,85.0,1440,True,Configuration issue,4.0
+TKT-00486,2026-06-22 18:25:00,2026-06-23 00:14:00,Closed,P3 - Medium,Hardware,Peripheral fault,Self-service Portal,Osborne Park,Service Desk,349.0,1440,True,Configuration issue,5.0
+TKT-00487,2026-03-28 08:30:00,2026-03-29 07:56:00,Closed,P4 - Low,Software,Application error,Self-service Portal,Canning Vale,Network Support,1406.0,2880,True,User error,5.0
+TKT-00488,2026-02-04 14:35:00,2026-02-05 16:06:00,Resolved,P3 - Medium,Hardware,Peripheral fault,Phone,Osborne Park,Field Support,1531.0,1440,False,Access permission,3.0
+TKT-00489,2026-04-21 12:43:00,2026-04-21 17:21:00,Closed,P3 - Medium,Software,Application error,Email,Remote User,Security Support,278.0,1440,True,Software bug,5.0
+TKT-00490,2026-06-17 07:49:00,2026-06-17 12:32:00,Closed,P2 - High,Hardware,Docking station issue,Self-service Portal,Canning Vale,Field Support,283.0,480,True,Configuration issue,4.0
+TKT-00491,2026-06-25 12:09:00,2026-06-26 04:41:00,Closed,P4 - Low,Software,Application error,Email,Remote User,Service Desk,992.0,2880,True,Configuration issue,5.0
+TKT-00492,2026-03-15 07:21:00,2026-03-16 08:56:00,Resolved,P4 - Low,Security,Suspicious email,Walk-up,Canning Vale,Security Support,1535.0,2880,True,User error,5.0
+TKT-00493,2026-05-20 15:48:00,2026-05-21 23:09:00,Closed,P3 - Medium,Hardware,Peripheral fault,Phone,Remote User,Service Desk,1881.0,1440,False,Software bug,3.0
+TKT-00494,2026-02-13 07:18:00,2026-02-13 11:46:00,Closed,P3 - Medium,Software,Installation request,Email,Canning Vale,Service Desk,268.0,1440,True,User error,4.0
+TKT-00495,2026-06-18 12:55:00,2026-06-18 20:12:00,Resolved,P3 - Medium,Hardware,Docking station issue,Monitoring Alert,Wangara,Security Support,437.0,1440,True,Network outage,3.0
+TKT-00496,2026-06-02 15:05:00,2026-06-02 21:16:00,Closed,P2 - High,Security,Unauthorized access attempt,Self-service Portal,Remote User,Service Desk,371.0,480,True,User error,4.0
+TKT-00497,2026-04-11 18:10:00,2026-04-12 06:59:00,Closed,P3 - Medium,Hardware,Docking station issue,Walk-up,Remote User,Network Support,769.0,1440,True,Configuration issue,3.0
+TKT-00498,2026-01-16 17:16:00,2026-01-17 01:22:00,Closed,P4 - Low,Security,Suspicious email,Self-service Portal,Malaga,Desktop Support,486.0,2880,True,Configuration issue,5.0
+TKT-00499,2026-04-08 15:43:00,2026-04-08 20:43:00,Closed,P3 - Medium,Hardware,Monitor issue,Monitoring Alert,Wangara,Field Support,300.0,1440,True,Configuration issue,5.0
+TKT-00500,2026-04-25 15:08:00,2026-04-25 22:26:00,Closed,P3 - Medium,Software,Software update,Self-service Portal,Osborne Park,Desktop Support,438.0,1440,True,Unknown,4.0
